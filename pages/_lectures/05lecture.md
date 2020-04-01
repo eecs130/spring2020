@@ -5,7 +5,7 @@ title: |
 type: lecture
 draft: 1
 description: IDK
-due_date: 2020-04-14
+due_date: 2020-04-13
 readings:
   - title: "Ch4: Functions"
     author: "Severance"

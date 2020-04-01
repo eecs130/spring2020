@@ -6,7 +6,7 @@ draft: 1
 description:
   - If / Else
   - Booleans
-due_date: 2020-04-23
+due_date: 2020-04-22
 readings:
   - title: "Ch3: Conditionals"
     author: "Severance"
