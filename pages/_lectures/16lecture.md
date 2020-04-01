@@ -1,9 +1,8 @@
 ---
 layout: lecture
-title: String Templates
+title: REST and Third-Party APIs (Part 2)
 type: lecture
 draft: 1
-description: String Templates
 due_date: 2020-05-20
 ---
 

@@ -1,12 +1,8 @@
 ---
 layout: lecture
-title: | 
-    Loops 2: For Loops & Lists
+title: JavaScript and the DOM
 type: lecture
 draft: 1
-description:
-  - If / Else
-  - Booleans
 due_date: 2020-04-29
 ---
 

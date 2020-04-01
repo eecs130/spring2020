@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Exam 1
+title: AJAX & Templating
 type: lecture
 draft: 1
 description: Midterm Exam

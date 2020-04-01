@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Tic Tac Toe
+title: TBD
 abbreviation: HW5
 type: homework
 files: course-files/assignments/hw05.zip

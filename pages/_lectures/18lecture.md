@@ -1,9 +1,8 @@
 ---
 layout: lecture
-title: Dictionary Algorithms
+title: Designing a REST API (Part 1)
 type: lecture
 draft: 1
-description: Dictionary Algorithms
 due_date: 2020-05-27
 ---
 

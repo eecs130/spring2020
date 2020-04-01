@@ -1,9 +1,8 @@
 ---
 layout: assignment-two-column
-title: Animations & Landscapes
+title: TBD
 abbreviation: HW4
 type: homework
-files: course-files/assignments/hw05.zip
 due_date: 2020-05-06
 points: 8
 draft: 1

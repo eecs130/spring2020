@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Make a Creature
+title: TBD
 abbreviation: HW3
 type: homework
 due_date: 2020-04-29

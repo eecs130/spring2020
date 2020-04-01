@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Intro to Tkinter
+title: TBD
 abbreviation: HW2
 type: homework
 due_date: 2020-04-22

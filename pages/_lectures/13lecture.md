@@ -1,9 +1,8 @@
 ---
 layout: lecture
-title: Exam 1 Review
+title: Lists and Loops
 type: lecture
 draft: 1
-description: Lots of practice exam materials
 due_date: 2020-05-11
 ---
 

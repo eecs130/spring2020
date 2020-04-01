@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Tutorial 1
+title: Final Project Presentations
 type: tutorial
 draft: 1
 due_date: 2020-06-05

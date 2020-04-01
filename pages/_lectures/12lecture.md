@@ -1,12 +1,8 @@
 ---
 layout: lecture
-title: | 
-    User Inputs & Events
+title: Functions, events, and control
 type: lecture
 draft: 1
-description:
-  - If / Else
-  - Booleans
 due_date: 2020-05-06
 ---
 

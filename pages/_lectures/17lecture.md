@@ -1,9 +1,8 @@
 ---
 layout: lecture
-title: Dictionaries
+title: Memorial Day (No Class)
 type: lecture
 draft: 1
-description: Dictionaries
 due_date: 2020-05-25
 ---
 
