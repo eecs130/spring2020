@@ -11,7 +11,7 @@ permalink: /syllabus/
 | **Instructor** | Sarah Van Wart |
 | **Lecture** | MW 4:00-4:50pm, Online |
 | **Section 1** | TBD with Anna Deng |
-| **Section 2** | TBD with Oliver Gabison |
+| **Section 2** | TBD with Olivier Gabison |
 
 ## About the Course
 This course is an introduction to the web, and assumes no prior knowledge. If you feel like you know nothing about coding (as in computer code) or design, but are a little bit curious about the web, then this course for you. If you’ve had quite a bit of experience with coding and design but want to continue developing your skills / portfolio, then this course may also be for you, although you may eventually want to explore additional courses offered in the CS Department (e.g. Agile Programming, Information Visualization, Intro to HCI, etc.).

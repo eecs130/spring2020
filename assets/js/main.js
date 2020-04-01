@@ -29,6 +29,8 @@ const stickyToggle = () => {
     } else {
         nav.classList.remove("sticky");
         main.classList.remove("sticky");
+        //little bit of a hack:
+        document.documentElement.scrollLeft = 0;
         if (aside) {
             aside.classList.remove("sticky");
         }

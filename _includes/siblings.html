@@ -11,20 +11,29 @@
             {% endif %}
             <a href="{{site.baseurl}}{{p.permalink}}" class="{{cls}}">{{ p.title }}</a>
             <ol>
-                {% for child in sortedPages %}
+            {% for child in sortedPages %}
                 {% if p.title == child.parent %}
-                    <li>
-                        {% assign cls = "" %}
+                    {% if child.parent == child.title %}
                         {% if child.permalink == page.permalink %}
-                            {% assign cls = "active" %}
+                            <li class="local-test">
+                                {% include toc.html html=child.content ordered=true class="siblings"  %}
+                            </li>
                         {% endif %}
-                        <a href="{{site.baseurl}}{{child.permalink}}" class="{{cls}}">{{ child.title }}</a>
-                        {% if child.permalink == page.permalink %}
-                            {% include toc.html html=child.content ordered=true %}
-                        {% endif %}
-                    </li>
+                    {% else %}
+                        <li>
+                            {% assign cls = "" %}
+                            {% if child.permalink == page.permalink %}
+                                {% assign cls = "active" %}
+                            {% endif %}
+                            <a href="{{site.baseurl}}{{child.permalink}}" class="{{cls}}">{{ child.title }}</a>
+                            {% if child.permalink == page.permalink %}
+                                {% include toc.html html=child.content ordered=true class="siblings" %}
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                    
                 {% endif %}
-                {% endfor %}
+            {% endfor %}
             </ol>
         </li>
     {% endif %}

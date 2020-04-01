@@ -58,6 +58,23 @@ $twocolHeaderHeight: 164px;
         ol {
             padding: 0px;
             margin: 0px;
+
+            &.siblings {
+                background: white;
+                padding-bottom: 10px;
+                margin-bottom: 0px !important;
+                border-bottom: solid 1px #CCC;
+                border-top: solid 1px #CCC;
+                padding-top: 10px;
+                a, a:visited {
+                    color: black !important;
+                    font-size: 0.8em !important;
+                    padding-top: 2px !important;
+                    &.active {
+                        color: white !important;
+                    }
+                }
+            }
         }
         .side-menu {
             width: 100%;
