@@ -59,7 +59,7 @@
         .desktop { display: none; }
         .mobile { display: flex; }
 
-        nav, aside {
+        aside {
             display: none;
         }
     }
@@ -123,6 +123,7 @@
                 top: 65px;
             }
             top: 65px;
+            height: auto;
             background: white;
 
             ul {
