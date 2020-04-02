@@ -7,6 +7,8 @@
     const nav = document.querySelector("nav");
     const aside = document.querySelector("aside");
     const sticky = nav.offsetTop;
+    const slimmed = new Event('slimmed');
+    const expanded = new Event('expanded');
 
     const stickyToggle = (yPos) => {
         const hasMinHeight = () => {
@@ -25,6 +27,7 @@
             nav.classList.add("sticky");
             if (aside) {
                 aside.classList.add("sticky");
+                aside.dispatchEvent(slimmed);
             } 
         
         } else {
@@ -33,6 +36,7 @@
             document.documentElement.scrollLeft = 0;
             if (aside) {
                 aside.classList.remove("sticky");
+                aside.dispatchEvent(expanded);
             }
         }
         initPositions();
@@ -70,7 +74,6 @@
         });
     };
 
-
     document.querySelectorAll("aside a").forEach(e => {
         e.onclick = (ev) => {
             scrollToAnchor(ev);
@@ -81,7 +84,6 @@
     window.onscroll = () => {
         scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
         for (let key in sections) {
-            //console.log(scrollPosition + 10);
             if (sections[key] <= scrollPosition + 10) {
                 const currentLink = document.querySelector('aside .active');
                 if (currentLink) {
