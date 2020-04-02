@@ -1,6 +1,7 @@
 ---
 layout: two-column-resources
 title: CSS Resources
+parent: CSS Resources
 nav_order: 11
 has_children: true
 permalink: /css-reference/
