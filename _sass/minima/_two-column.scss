@@ -48,7 +48,7 @@ $twocolHeaderHeight: 164px;
         position: absolute;
         top: $twocolHeaderHeight;
         left: 0px;
-        height: calc(100vh - 164px);
+        height: 100vh;
         width: 250px;
         overflow-y: auto;
         padding-bottom: 40px;
@@ -66,6 +66,18 @@ $twocolHeaderHeight: 164px;
                 border-bottom: solid 1px #CCC;
                 border-top: solid 1px #CCC;
                 padding-top: 10px;
+                margin-left: -20px;
+                > li {
+                    a:before {
+                        font-size: 20px;
+                        content: "\2022";
+                        font-weight: bold;
+                        display: inline-block;
+                        text-indent: -16px;
+                        vertical-align: text-bottom;
+                        color: $lightpurple;
+                    }
+                }
                 a, a:visited {
                     color: black !important;
                     font-size: 0.8em !important;

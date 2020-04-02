@@ -20,7 +20,7 @@ table {
     }
     td {
         font-family: "Akkurat Pro Light";
-        strong, i, a.lec, a.hw, a.pj {
+        strong, i {
             font-family: 'Akkurat Pro Regular';
         }
     }
@@ -80,11 +80,11 @@ table.rubric {
     td:nth-child(2), th:nth-child(2) {
         min-width: 100px;
     }
-    td:nth-child(4), th:nth-child(4) {
-        min-width: 280px;
-    }
     td:nth-child(3), th:nth-child(3) {
         min-width: 210px;
+    }
+    td:nth-child(4), th:nth-child(4) {
+        max-width: 180px;
     }
 }
 .schedule {

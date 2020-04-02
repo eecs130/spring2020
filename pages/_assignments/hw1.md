@@ -5,8 +5,8 @@ abbreviation: HW1
 type: homework
 due_date: 2020-04-15
 ordering: 1
-draft: 1
-points: 8
+draft: 0
+points: 10
 ---
 
 See Google Doc

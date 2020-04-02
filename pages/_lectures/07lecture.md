@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: Intro to Design with CSS
+title: |
+    L5: Intro to Design with CSS
 type: lecture
 draft: 1
 description:

@@ -1,0 +1,42 @@
+---
+layout: two-column
+show_outline: true
+---
+{{content}}
+
+{% if page.slides %}
+    <h2 id="slides">Review the Slides</h2>
+    <ol>
+    {% for slide in page.slides %}
+        <li>
+            <a href="{{slide.url}}" target="_blank">{{slide.title}}</a>
+        </li>
+    {% endfor %}
+    </ol>
+{% endif %}
+
+{% if page.videos %}
+    <h2 id="videos">Watch the Lecture Video(s)</h2>
+    <ol>
+    {% for video in page.videos %}
+        <li>
+            <a href="{{video.url}}" target="_blank">{{video.title}}</a>
+        </li>
+    {% endfor %}
+    </ol>
+{% endif %}
+
+{% if page.readings %}
+    <h2 id="readings">Do the Readings</h2>
+    {% include page_readings.html %} 
+{% endif %}
+
+{% if page.quiz_url %}
+    <h2 id="quiz">Take the Quiz</h2>
+    <p>
+        Note: The quiz is to help you test your own understanding 
+        of the concepts. It is not graded, but it helps us understand 
+        how you're progressing through the course.
+    </p>
+    {{page.quiz_url}}
+{% endif %}

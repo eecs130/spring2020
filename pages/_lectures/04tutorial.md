@@ -1,8 +1,9 @@
 ---
-layout: lecture
+layout: module
 title: Tutorial 1
 type: tutorial
-draft: 1
+draft: 0
+show_schedule: 1
 description:
   - Installing & configuring Atom
   - Practice with HTML tags

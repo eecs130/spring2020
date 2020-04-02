@@ -1,8 +1,10 @@
 ---
-layout: lecture
-title: The Building Blocks
+layout: module
+title: |
+    L2: The Building Blocks
 type: lecture
-draft: 1
+draft: 0
+show_schedule: 1
 description:
   - Intro to Web Languages and the Browser
   - Overview of HTML

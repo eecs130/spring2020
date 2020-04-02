@@ -17,8 +17,10 @@ layout: default
             <tr>
                 <th>Week</th>
                 <th></th>
-                <th>Topic</th>
-                <th>Supplemental Readings</th>
+                <th>Lesson</th>
+                {% comment %}
+                    <th>Supplemental Readings</th>
+                {% endcomment %}
                 <th>Due</th>
             </tr>
         </thead>
@@ -56,7 +58,9 @@ layout: default
                             {% assign className = 'lab' %}
                         {% endif %} 
                         {% if lecture.draft == 1 %}
-                            <strong>{{ lecture.title }}</strong>
+                            <strong>
+                                {{ lecture.title }}
+                            </strong>
                         {% else %} 
                             <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
                                 {{ lecture.title }} <i class="fas fa-link"></i>
@@ -74,6 +78,7 @@ layout: default
                             {{ lecture.description }}
                         {% endif %}
                     </td>
+                    {% comment %}
                     <td>
                         {% if lecture.readings %}
                         <ul>
@@ -91,6 +96,7 @@ layout: default
                         </ul>
                         {% endif %}
                     </td>
+                    {% endcomment %}
                 {% else %}
                     <!-- If no lecture -->
                     <td>{{ date | date: "%a, %m/%d" }}</td>

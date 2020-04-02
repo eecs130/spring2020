@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: CSS Techniques
+title: |
+    L6: CSS Techniques
 type: lecture
 draft: 1
 description:
