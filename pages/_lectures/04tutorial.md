@@ -2,7 +2,7 @@
 layout: module
 title: Tutorial 1
 type: tutorial
-draft: 0
+draft: 1
 show_schedule: 1
 description:
   - Installing & configuring Atom

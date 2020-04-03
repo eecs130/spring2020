@@ -11,7 +11,13 @@
                 {% include siblings.html %}
             </aside>
             <article>
-                {% include page_title.html %} 
+                <h1>
+                    {% if page.parent %}
+                        <a href="../">{{ page.parent }}</a> > 
+                    {% endif %}
+                    {{ page.title }}
+                </h1>
+                <!-- {% include page_title.html %}  -->
                 {% if page.show_outline %}
                     <div class="outline">
                         {% include toc.html html=content ordered=true %}
@@ -22,7 +28,7 @@
             </article>  
         </main>
         {% include scripts.html %}
-        <script type="text/javascript" src="{{site.baseurl}}/assets/js/scrollspy.js"></script>
+        <!-- <script type="text/javascript" src="{{site.baseurl}}/assets/js/scrollspy.js"></script>
         <script>
 
             const updateAsideHeight = (updateType) => {
@@ -65,6 +71,6 @@
                 false
             );
 
-        </script>
+        </script> -->
     </body>
 </html>

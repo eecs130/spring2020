@@ -2,6 +2,7 @@
 layout: two-column-resources
 title: Text Markup Tags
 nav_order: 2
+show_outline: true
 parent: HTML Resources
 permalink: /html-reference/text-tags/
 ---

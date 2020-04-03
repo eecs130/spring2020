@@ -3,7 +3,7 @@ layout: module
 title: |
     L2: The Building Blocks
 type: lecture
-draft: 0
+draft: 1
 show_schedule: 1
 description:
   - Intro to Web Languages and the Browser

@@ -122,7 +122,7 @@ h2.slash::after, h3.slash::after, h4.slash::after, h5.slash::after {
 }
 
 h2 {
-  border-bottom: dotted 1px #999;
+  border-bottom: dotted 1px #CCC;
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
@@ -320,7 +320,16 @@ nav ul li a, nav ul li a:visited, nav ul li:active {
 
 nav ul li:hover, nav ul li:active {
   background: #F9F9F9;
-  border-bottom: solid 3px #999;
+  border-bottom: solid 3px #CCC;
+}
+
+.module-image {
+  max-width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 1px #CCC;
+  float: left;
+  margin: 0px 10px 0px 0px;
 }
 
 @font-face {
@@ -421,7 +430,7 @@ table td {
   font-family: "Akkurat Pro Light";
 }
 
-table td strong, table td i, table td a.lec, table td a.hw, table td a.pj {
+table td strong, table td i {
   font-family: 'Akkurat Pro Regular';
 }
 
@@ -484,12 +493,12 @@ table.rubric ul {
   min-width: 100px;
 }
 
-.readings td:nth-child(4), .readings th:nth-child(4), .schedule td:nth-child(4), .schedule th:nth-child(4) {
-  min-width: 280px;
-}
-
 .readings td:nth-child(3), .readings th:nth-child(3), .schedule td:nth-child(3), .schedule th:nth-child(3) {
   min-width: 210px;
+}
+
+.readings td:nth-child(4), .readings th:nth-child(4), .schedule td:nth-child(4), .schedule th:nth-child(4) {
+  max-width: 180px;
 }
 
 .schedule td:nth-child(3), .schedule th:nth-child(3) {
@@ -635,22 +644,66 @@ table.small {
   min-width: 42px;
   margin-right: 5px;
   text-indent: 0px;
+  font-family: 'Akkurat Pro Regular';
 }
 
-.assignments .hw, .assignments .hw:hover, .lectures .hw, .lectures .hw:hover, .assignment .hw, .assignment .hw:hover, .reference .hw, .reference .hw:hover, .lecture .hw, .lecture .hw:hover, .readings .hw, .readings .hw:hover, .link-menu .hw, .link-menu .hw:hover, .two-column article .hw, .two-column article .hw:hover, .syllabus .hw, .syllabus .hw:hover, .schedule .hw, .schedule .hw:hover {
-  background: #684a98;
+.assignments .hw:hover, .assignments a.hw:hover,
+.assignments .pj:hover, .assignments a.pj:hover,
+.assignments .lec:hover, .assignments a.lec:hover,
+.assignments .lab:hover, .assignments a.lab:hover,
+.assignments .ec:hover, .assignments a.ec:hover, .lectures .hw:hover, .lectures a.hw:hover,
+.lectures .pj:hover, .lectures a.pj:hover,
+.lectures .lec:hover, .lectures a.lec:hover,
+.lectures .lab:hover, .lectures a.lab:hover,
+.lectures .ec:hover, .lectures a.ec:hover, .assignment .hw:hover, .assignment a.hw:hover,
+.assignment .pj:hover, .assignment a.pj:hover,
+.assignment .lec:hover, .assignment a.lec:hover,
+.assignment .lab:hover, .assignment a.lab:hover,
+.assignment .ec:hover, .assignment a.ec:hover, .reference .hw:hover, .reference a.hw:hover,
+.reference .pj:hover, .reference a.pj:hover,
+.reference .lec:hover, .reference a.lec:hover,
+.reference .lab:hover, .reference a.lab:hover,
+.reference .ec:hover, .reference a.ec:hover, .lecture .hw:hover, .lecture a.hw:hover,
+.lecture .pj:hover, .lecture a.pj:hover,
+.lecture .lec:hover, .lecture a.lec:hover,
+.lecture .lab:hover, .lecture a.lab:hover,
+.lecture .ec:hover, .lecture a.ec:hover, .readings .hw:hover, .readings a.hw:hover,
+.readings .pj:hover, .readings a.pj:hover,
+.readings .lec:hover, .readings a.lec:hover,
+.readings .lab:hover, .readings a.lab:hover,
+.readings .ec:hover, .readings a.ec:hover, .link-menu .hw:hover, .link-menu a.hw:hover,
+.link-menu .pj:hover, .link-menu a.pj:hover,
+.link-menu .lec:hover, .link-menu a.lec:hover,
+.link-menu .lab:hover, .link-menu a.lab:hover,
+.link-menu .ec:hover, .link-menu a.ec:hover, .two-column article .hw:hover, .two-column article a.hw:hover,
+.two-column article .pj:hover, .two-column article a.pj:hover,
+.two-column article .lec:hover, .two-column article a.lec:hover,
+.two-column article .lab:hover, .two-column article a.lab:hover,
+.two-column article .ec:hover, .two-column article a.ec:hover, .syllabus .hw:hover, .syllabus a.hw:hover,
+.syllabus .pj:hover, .syllabus a.pj:hover,
+.syllabus .lec:hover, .syllabus a.lec:hover,
+.syllabus .lab:hover, .syllabus a.lab:hover,
+.syllabus .ec:hover, .syllabus a.ec:hover, .schedule .hw:hover, .schedule a.hw:hover,
+.schedule .pj:hover, .schedule a.pj:hover,
+.schedule .lec:hover, .schedule a.lec:hover,
+.schedule .lab:hover, .schedule a.lab:hover,
+.schedule .ec:hover, .schedule a.ec:hover {
+  opacity: 0.8;
 }
 
-.assignments .pj, .assignments .pj:hover, .lectures .pj, .lectures .pj:hover, .assignment .pj, .assignment .pj:hover, .reference .pj, .reference .pj:hover, .lecture .pj, .lecture .pj:hover, .readings .pj, .readings .pj:hover, .link-menu .pj, .link-menu .pj:hover, .two-column article .pj, .two-column article .pj:hover, .syllabus .pj, .syllabus .pj:hover, .schedule .pj, .schedule .pj:hover {
+.assignments .hw, .assignments a.hw, .lectures .hw, .lectures a.hw, .assignment .hw, .assignment a.hw, .reference .hw, .reference a.hw, .lecture .hw, .lecture a.hw, .readings .hw, .readings a.hw, .link-menu .hw, .link-menu a.hw, .two-column article .hw, .two-column article a.hw, .syllabus .hw, .syllabus a.hw, .schedule .hw, .schedule a.hw {
   background: #2869e6;
 }
 
-.assignments .lec, .assignments .lec:hover, .assignments a.lec, .lectures .lec, .lectures .lec:hover, .lectures a.lec, .assignment .lec, .assignment .lec:hover, .assignment a.lec, .reference .lec, .reference .lec:hover, .reference a.lec, .lecture .lec, .lecture .lec:hover, .lecture a.lec, .readings .lec, .readings .lec:hover, .readings a.lec, .link-menu .lec, .link-menu .lec:hover, .link-menu a.lec, .two-column article .lec, .two-column article .lec:hover, .two-column article a.lec, .syllabus .lec, .syllabus .lec:hover, .syllabus a.lec, .schedule .lec, .schedule .lec:hover, .schedule a.lec {
-  background: #F6F6F6;
-  color: #444;
+.assignments .pj, .assignments a.pj, .lectures .pj, .lectures a.pj, .assignment .pj, .assignment a.pj, .reference .pj, .reference a.pj, .lecture .pj, .lecture a.pj, .readings .pj, .readings a.pj, .link-menu .pj, .link-menu a.pj, .two-column article .pj, .two-column article a.pj, .syllabus .pj, .syllabus a.pj, .schedule .pj, .schedule a.pj {
+  background: #2869e6;
 }
 
-.assignments .lab, .assignments .lab:hover, .lectures .lab, .lectures .lab:hover, .assignment .lab, .assignment .lab:hover, .reference .lab, .reference .lab:hover, .lecture .lab, .lecture .lab:hover, .readings .lab, .readings .lab:hover, .link-menu .lab, .link-menu .lab:hover, .two-column article .lab, .two-column article .lab:hover, .syllabus .lab, .syllabus .lab:hover, .schedule .lab, .schedule .lab:hover {
+.assignments .lec, .assignments a.lec, .lectures .lec, .lectures a.lec, .assignment .lec, .assignment a.lec, .reference .lec, .reference a.lec, .lecture .lec, .lecture a.lec, .readings .lec, .readings a.lec, .link-menu .lec, .link-menu a.lec, .two-column article .lec, .two-column article a.lec, .syllabus .lec, .syllabus a.lec, .schedule .lec, .schedule a.lec {
+  background: #846dac;
+}
+
+.assignments .lab, .assignments a.lab, .lectures .lab, .lectures a.lab, .assignment .lab, .assignment a.lab, .reference .lab, .reference a.lab, .lecture .lab, .lecture a.lab, .readings .lab, .readings a.lab, .link-menu .lab, .link-menu a.lab, .two-column article .lab, .two-column article a.lab, .syllabus .lab, .syllabus a.lab, .schedule .lab, .schedule a.lab {
   background: #009c7b;
 }
 
@@ -681,7 +734,7 @@ table.small {
 }
 
 .two-column .outline ol, .two-column .outline ul {
-  padding: 10px 10px 5px 15px;
+  padding: 5px 10px 0px 15px;
 }
 
 .two-column .outline li {
@@ -816,10 +869,6 @@ blockquote.quote.slim:before {
   padding-left: 20px;
 }
 
-.assignment .outline, .lecture .outline, .details .outline, .two-column article .outline, .syllabus .outline, .schedule .outline {
-  margin-top: 30px;
-}
-
 .assignment .summary, .lecture .summary, .details .summary, .two-column article .summary, .syllabus .summary, .schedule .summary {
   background: #F3F3F3;
   padding: 10px;
@@ -841,10 +890,6 @@ blockquote.quote.slim:before {
   text-indent: -16px;
   vertical-align: text-bottom;
   color: #684a98;
-}
-
-.assignment h2, .lecture h2, .details h2, .two-column article h2, .syllabus h2, .schedule h2 {
-  border-bottom: solid 1px #F6F6F6;
 }
 
 .assignment h3, .lecture h3, .details h3, .two-column article h3, .syllabus h3, .schedule h3 {
@@ -960,7 +1005,7 @@ blockquote.quote.slim:before {
   position: absolute;
   top: 164px;
   left: 0px;
-  height: calc(100vh - 164px);
+  height: 100vh;
   width: 250px;
   overflow-y: auto;
   padding-bottom: 40px;
@@ -980,6 +1025,36 @@ blockquote.quote.slim:before {
 .two-column aside ol {
   padding: 0px;
   margin: 0px;
+}
+
+.two-column aside ol.siblings {
+  background: white;
+  padding-bottom: 10px;
+  margin-bottom: 0px !important;
+  border-bottom: solid 1px #CCC;
+  border-top: solid 1px #CCC;
+  padding-top: 10px;
+  margin-left: -20px;
+}
+
+.two-column aside ol.siblings > li a:before {
+  font-size: 20px;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  text-indent: -16px;
+  vertical-align: text-bottom;
+  color: #846dac;
+}
+
+.two-column aside ol.siblings a, .two-column aside ol.siblings a:visited {
+  color: black !important;
+  font-size: 0.8em !important;
+  padding-top: 2px !important;
+}
+
+.two-column aside ol.siblings a.active, .two-column aside ol.siblings a:visited.active {
+  color: white !important;
 }
 
 .two-column aside .side-menu {
@@ -1454,9 +1529,6 @@ blockquote.quote.slim:before {
   table td {
     font-family: "Akkurat Pro Regular";
   }
-  .schedule table th:nth-child(4), .schedule table td:nth-child(4) {
-    display: none;
-  }
   .schedule table td:nth-child(1), .schedule table th:nth-child(1) {
     min-width: 72px;
     width: 72px;
@@ -1479,7 +1551,7 @@ blockquote.quote.slim:before {
     display: -ms-flexbox;
     display: flex;
   }
-  .two-column nav, .two-column aside {
+  .two-column aside {
     display: none;
   }
 }
@@ -1553,6 +1625,7 @@ blockquote.quote.slim:before {
   .one-column nav, .two-column nav {
     display: none;
     top: 65px;
+    height: auto;
     background: white;
   }
   .one-column nav.sticky, .two-column nav.sticky {
@@ -1593,6 +1666,10 @@ blockquote.quote.slim:before {
   .one-column nav ul li:hover, .one-column nav ul li:active, .two-column nav ul li:hover, .two-column nav ul li:active {
     border-bottom: solid 1px #EEE;
     background: #E9E9E9;
+  }
+  .module-image {
+    max-width: 100%;
+    float: none;
   }
   .assignments section, .people section {
     width: 100%;
