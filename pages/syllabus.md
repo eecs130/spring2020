@@ -99,28 +99,21 @@ Homework will be approximately weekly. Homework assignments are due at 11:59pm o
 | **Check** | 7 Points | Mostly working, but some errors or issues were found |
 | **Check Plus**| 10 Points | Working exactly as it should |
 
-If you would like to resubmit your homework, you have one week to revise and resubmit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 3 points (30%). If you resubmit after first turning in a late homework assignment, you can only receive a maximum of 7/10 points.
+If you turn your homework late (within 48 hours of the deadline) you will be penalized 3 points (30%), and can receive a maximum of 7/10 points. I do not give extensions, particularly given the pass / no pass situation.
 
-In EXTREME circumstances (e.g, if you leave town for a funeral), you must contact your dean of students (like Joe Holtgreive) and have them contact me if they deem it necessary to give you an extension or make other accommodations. Please understand that we do this to make things fair for all students – I don’t want to be in charge of vetting individual students’ situations, and I don’t want students to have to tell me their personal troubles if they don't want to.
-
-
-In your programming assignments, it is critical that you name your files EXACTLY as specified. More generally, failure to follow the specification given in the assignment will result in a significant score penalty. Because of the nature and size of the class, we will find it necessary to do some automated testing of your programming assignments. On occasion, this testing/grading may make an error. You will receive your assignment grades on Canvas. If you have any grading questions/concerns, please send a private message on Piazza within 1 week to the graduate TA (Emirhan Poyraz) to resolve the issue. Finally, it is your responsibility to keep up-to-date on class material and announcements. This includes material presented and announcements made in class, via email, or on Piazza.
-
+If you have any grading questions/concerns, please send a private message on Piazza within 1 week to Sarah to resolve the issue. Finally, it is your responsibility to keep up-to-date on class material and announcements. This includes material presented and announcements made in class, via email, or on Piazza.
 
 ## Policy on Academic Honesty
 In the past, there have been a few unfortunate instances in which students have presented work other than their own. For the programming assignments: You are allowed (encouraged, even!) to discuss general approaches to solving problems, but all work you submit must be your own. Working “together” and presenting variants of the same file is not acceptable. Here are some specific guidelines to make sure you don’t cross the line:
-
 
 1. Do not exchange programs or program fragments in any form – on paper, via e-mail, or by other means.
 2. Do not copy solutions from any source, including the web or previous EECS 130 students.
 3. While working with other students, it is perfectly acceptable to ‘look’ at each other’s code (perhaps while helping someone to debug), but you should NEVER be scribing (typing or writing) your own work while looking at someone else’s (on a computer screen, paper, whiteboard, etc.).
 4. Uploading materials from this course to websites that sell such content to students is prohibited by Northwestern’s academic integrity policies, and may also put you at risk for violating copyright policies in Northwestern’s Student Conduct Code.
 
-
 Contact Sarah Van Wart if you have any questions about what is appropriate.
 
 ## Zoom Instructions
-
 To ensure a smooth lecture experience for everyone, we have created a [Zoom Guide](../zoom/) for you. Please refer to it to understand how to access the course Zoom sessions, and some of the recording and etiquette policies.
 
 ## A Note on Class Recordings
