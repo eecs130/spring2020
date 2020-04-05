@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: |
-    L4: Intro to CSS
+title: Intro to CSS
 type: lecture
 draft: 1
+num: 4
 due_date: 2020-04-15
 
     

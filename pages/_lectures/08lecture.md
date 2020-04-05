@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: |
-    L6: CSS Techniques
+title: CSS Techniques
 type: lecture
 draft: 1
+num: 6
 description:
   - Layouts
   - Responsive UIs

@@ -10,7 +10,7 @@ permalink: /syllabus/
 | **Prerequisites** | No experience necessary! |
 | **Instructor** | Sarah Van Wart |
 | **Lecture** | MW 4:00-4:50pm, Online |
-| **Section 1** | TBD with Anna Deng |
+| **Section 1 (Th)** | Th 4:00-4:50pm with Anna Deng |
 | **Section 2** | TBD with Olivier Gabison |
 
 ## About the Course
@@ -25,9 +25,7 @@ Taking this course means committing – for 9 weeks – to practicing your emerg
 Lectures will be taught asynchronously (not live). Each lesson will be a combination of slides, pre-recorded “live-coding” videos, programming exercises, and (sometimes) a mini-quiz. That said, we will still be using the scheduled lecture time for more interactive Q&A sessions on Zoom with professor Van Wart – to answer any questions about the material for that day. Organizationally, some topics/modules span multiple lectures (see the course schedule).
 
 ### Tutorial Sessions
-This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. Tutorial sessions are a way to earn participation points.
-
-There are two ways to earn full participation credit in each tutorial session:
+This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. There are two ways to earn full participation credit in each tutorial session:
 
 1. By attending them (synchronously), working through the exercises, and asking questions (as they arise).
 2. By turning in the tutorial exercise(s) before the tutorial session. Tutorial exercises will be posted at the beginning of the week (at least 48 hours in advance).
@@ -121,7 +119,9 @@ In the past, there have been a few unfortunate instances in which students have 
 
 Contact Sarah Van Wart if you have any questions about what is appropriate.
 
+## Zoom Instructions
 
+To ensure a smooth lecture experience for everyone, we have created a [Zoom Guide](../zoom/) for you. Please refer to it to understand how to access the course Zoom sessions, and some of the recording and etiquette policies.
 
 ## A Note on Class Recordings
 The Provost's office has asked instructors to publish the following language in the syllabus:

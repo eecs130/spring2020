@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: |
-    L5: Intro to Design with CSS
+title: Intro to Design with CSS
 type: lecture
 draft: 1
+num: 5
 description:
   - Visual Design
   - Best Practices

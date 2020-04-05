@@ -17,10 +17,7 @@ layout: default
             <tr>
                 <th>Week</th>
                 <th></th>
-                <th>Lesson</th>
-                {% comment %}
-                    <th>Supplemental Readings</th>
-                {% endcomment %}
+                <th>Topic</th>
                 <th>Due</th>
             </tr>
         </thead>
@@ -49,58 +46,34 @@ layout: default
                         {% if lecture.type != 'tutorial' %}
                             {{ date | date: "%a, %m/%d" }}
                         {% else %}
-                            Tutorial
+                            Tutorial<br>
+                            (during assigned day/time)
                         {% endif %} 
                     </td>
                     <td>
                         {% assign className = 'lec' %}
+                        {% assign prefix = None %}
+                        {% if lecture.num  %}
+                            {% assign prefix = "Lecture " | append: lecture.num %}
+                        {% endif %} 
                         {% if lecture.type == 'tutorial' %}
                             {% assign className = 'lab' %}
+                            {% assign prefix = "Tutorial " | append: lecture.num %}
                         {% endif %} 
-                        {% if lecture.draft == 1 %}
-                            <strong>
-                                {{ lecture.title }}
-                            </strong>
-                        {% else %} 
+                        {% if lecture.draft == 1 and prefix %}
+                            <span class="badge">
+                                {{ prefix }}
+                            </span>
+                        {% elsif prefix %} 
                             <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
-                                {{ lecture.title }} <i class="fas fa-link"></i>
+                                {{ prefix }} <i class="fas fa-link"></i>
                             </a>
-
-                        {% endif %} 
-                        <br>
-                        {% if lecture.description.first %}
-                            <ul>
-                                <li>
-                                    {{ lecture.description | join: "</li><li>" }}
-                                </li>
-                            </ul>
-                        {% else %}
-                            {{ lecture.description }}
                         {% endif %}
+                        {{ lecture.title }} 
                     </td>
-                    {% comment %}
-                    <td>
-                        {% if lecture.readings %}
-                        <ul>
-                            {% for reading in lecture.readings %}
-                                <li>
-                                    {% if reading.video_url %}
-                                        {{ reading.title }}<br>
-                                        <a href="{{ reading.url }}" target="_blank">readings</a> &bull;
-                                        <a href="{{ reading.video_url }}" target="_blank">videos</a> 
-                                    {% else %}
-                                        <a href="{{ reading.url }}" {% if reading.internal != 1 %}target="_blank"{% endif %}>{{ reading.title }}</a>
-                                    {% endif %}
-                                </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </td>
-                    {% endcomment %}
                 {% else %}
                     <!-- If no lecture -->
                     <td>{{ date | date: "%a, %m/%d" }}</td>
-                    <td></td>
                     <td></td>
                 {% endif %}
                 <td>
@@ -132,23 +105,3 @@ layout: default
     </table>
 
 </section>
-<!-- {% if site.deadline_reminder %}
-<script>
-    /* 
-        Script for calculating # of days until assignment due.
-        Note: Can't use Jekyll b/c it doesn't compile every time.
-    */
-    const trs = document.querySelectorAll('tr');
-    for (tr of trs) {
-        const dateElement = tr.querySelector('.due-date');
-        if (dateElement) {
-            const dateString = dateElement.innerHTML;
-            const dueDate = new Date(dateString);
-            const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
-            if (numDays < 0) {
-                tr.classList.add('passed');
-            }
-        }
-    }
-</script>
-{% endif %} -->

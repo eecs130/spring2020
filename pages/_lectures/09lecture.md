@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: |
-    L7: CSS Wrap-Up
+title: CSS Wrap-Up
 type: lecture
 draft: 1
+num: 7
 due_date: 2020-04-27
 ---
 
