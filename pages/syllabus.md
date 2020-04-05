@@ -22,10 +22,13 @@ Taking this course means committing – for 9 weeks – to practicing your emerg
 
 ## Course Format
 ### Lectures
-Lectures will be taught asynchronously (not live). Each lesson will be a combination of slides, pre-recorded “live-coding” videos, programming exercises, and (sometimes) a mini-quiz. That said, we will still be using the scheduled lecture time for more interactive Q&A sessions on Zoom with professor Van Wart – to answer any questions about the material for that day. Organizationally, some topics/modules span multiple lectures (see the course schedule).
+Lectures will be taught both asynchronously and live:
+
+1. Most days, I will introduce some of the course content via pre-recorded lectures that you will be expected to review before the course starts. These will be made available on the course website.
+2. Then, during regularly scheduled class time Mondays and Wednesdays from 4-4:50PM (Central Time), we will do interactive Q&A sessions on Zoom together, with professor Van Wart. During these times, we will do some coding together, and go over some concepts and techniques using some examples. 
 
 ### Tutorial Sessions
-This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. There are two ways to earn full participation credit in each tutorial session:
+This course also involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. There are two ways to earn full participation credit in each tutorial session:
 
 1. By attending them (synchronously), working through the exercises, and asking questions (as they arise).
 2. By turning in the tutorial exercise(s) before the tutorial session. Tutorial exercises will be posted at the beginning of the week (at least 48 hours in advance).
@@ -33,6 +36,9 @@ This course involves weekly small-group tutorial sessions where you will work wi
 I (prof. Van Wart) have a strong preference for option #1, because it’s a form of low-pressure, built-in accountability that will help you learn. That said, it’s up to you. Attending and working in the tutorials is worth 10% of your grade. But you have to actually work – if you zone out, we will know, and will not give you credit.
 
 Following the submission deadline, a solution and walkthrough of each problem will be made available via Canvas.
+
+### Homework and Projects
+The majority of your grade will be based on 6 homework assignments and one final project -- creating a website of your choosing -- that you will complete over the course of the quarter. 
 
 ## Course Staff
 ### Peer Mentors
