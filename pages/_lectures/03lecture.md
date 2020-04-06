@@ -31,6 +31,9 @@ videos:
      title: Intro to the Internet
    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07179af4-a053-48dd-b2be-ab950139f056
      title: Intro to the Web
+   - url: https://northwestern.zoom.us/rec/play/v5QldOCs-zI3HtPHswSDU_57W460LKOs0SVI-vMIyknkU3QCN1Gnb-cQY7Yl6sERpfuZAD-t1zOW72yy
+     title: Course Logistics
+     live: 1
 
 due_date: 2020-04-06
 # quiz_url: IDK
