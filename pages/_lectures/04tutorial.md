@@ -2,7 +2,7 @@
 layout: module
 title: Installation & Configuration
 type: tutorial
-draft: 1
+draft: s1
 show_schedule: 1
 num: 1
 description:
