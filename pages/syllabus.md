@@ -28,7 +28,7 @@ Lectures will be taught both asynchronously and live:
 2. Then, during regularly scheduled class time Mondays and Wednesdays from 4-4:50PM (Central Time), we will do interactive Q&A sessions on Zoom together, with professor Van Wart. During these times, we will do some coding together, and go over some concepts and techniques using some examples. 
 
 ### Tutorial Sessions
-This course also involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. There are two ways to earn full participation credit in each tutorial session:
+This course also involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of various web concepts. There are two ways to earn full participation credit in each tutorial session:
 
 1. By attending them (synchronously), working through the exercises, and asking questions (as they arise).
 2. By turning in the tutorial exercise(s) before the tutorial session. Tutorial exercises will be posted at the beginning of the week (at least 48 hours in advance).
