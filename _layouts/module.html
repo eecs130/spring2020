@@ -42,6 +42,11 @@ show_outline: true
     {% for video in page.videos %}
         <li>
             <a href="{{video.url}}" target="_blank">{{video.title}}</a>
+            {% if video.live %}
+                (lecture recording)
+            {% else %}
+                (pre-recorded)
+            {% endif %}
         </li>
     {% endfor %}
     </ol>

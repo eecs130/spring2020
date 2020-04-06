@@ -54,7 +54,7 @@ layout: default
                         {% assign className = 'lec' %}
                         {% assign prefix = None %}
                         {% if lecture.num  %}
-                            {% assign prefix = "Lecture " | append: lecture.num %}
+                            {% assign prefix = "Lesson " | append: lecture.num %}
                         {% endif %} 
                         {% if lecture.type == 'tutorial' %}
                             {% assign className = 'lab' %}

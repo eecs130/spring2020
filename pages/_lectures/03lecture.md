@@ -26,11 +26,11 @@ slides:
      title: Course Logistics
    - url: https://docs.google.com/presentation/d/1i3y1jS6dx7fDj6bO0UCerYaP3gU3XDMggRSlaWsyBWs/edit?usp=sharing
      title: Intro to Web Infrastructure
-# videos:
-#    - url: #
-#      title: Vid 1
-#    - url: #
-#      title: Vid 2
+videos:
+   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1231d07b-74ae-43b8-ae61-ab9501354f62
+     title: Intro to the Internet
+   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07179af4-a053-48dd-b2be-ab950139f056
+     title: Intro to the Web
 
 due_date: 2020-04-06
 # quiz_url: IDK
