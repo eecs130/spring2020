@@ -7,14 +7,14 @@ permalink: /html-reference/semantic-tags/
 ---
 
 > **Reference Videos & Readings**
-* Suggested Lynda.com Videos:
-  * [The value of structure](http://www.lynda.com/HTML-tutorials/value-structure/170427/196152-4.html) (2:48)
-  * [Controlling document outlines](http://www.lynda.com/HTML-tutorials/Controlling-document-outlines/170427/196153-4.html) (10:40)
-* Optional Lynda.com Videos
-  * [The nav element](http://www.lynda.com/HTML-tutorials/nav-element/170427/196154-4.html) (5:32)
-  * [The article element](http://www.lynda.com/HTML-tutorials/article-element/170427/196155-4.html) (5:19)
-  * [The section element](http://www.lynda.com/HTML-tutorials/section-element/170427/196156-4.html) (5:12)
-  * [The div element](http://www.lynda.com/HTML-tutorials/div-element/170427/196158-4.html) (6:04)
+* Suggested LinkedIn Learning Videos:
+  * [The value of structure](https://www.linkedin.com/learning/html-essential-training/the-value-of-structure?u=75814418) (2:48)
+  * [Controlling document outlines](https://www.linkedin.com/learning/html-essential-training/controlling-document-outlines?u=75814418) (10:40)
+* Optional LinkedIn Learning Videos
+  * [The nav element](https://www.linkedin.com/learning/html-essential-training/the-nav-element?u=75814418) (5:32)
+  * [The article element](https://www.linkedin.com/learning/html-essential-training/the-article-element?u=75814418) (5:19)
+  * [The section element](https://www.linkedin.com/learning/html-essential-training/the-section-element?u=75814418) (5:12)
+  * [The div element](https://www.linkedin.com/learning/html-essential-training/the-div-element?u=75814418) (6:04)
 * W3Schools Reference:
   * [http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
   * [http://www.w3schools.com/html/html_layout.asp](http://www.w3schools.com/html/html_layout.asp)

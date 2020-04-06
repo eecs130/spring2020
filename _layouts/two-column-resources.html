@@ -13,7 +13,7 @@
             <article>
                 <h1>
                     {% if page.parent %}
-                        <a href="../">{{ page.parent }}</a> > 
+                        <a href="../">{{ page.parent }}</a> > {{page.nav_order}}.
                     {% endif %}
                     {{ page.title }}
                 </h1>

@@ -323,15 +323,6 @@ nav ul li:hover, nav ul li:active {
   border-bottom: solid 3px #CCC;
 }
 
-.module-image {
-  max-width: 30%;
-  border-radius: 5px;
-  padding: 5px;
-  border: solid 1px #CCC;
-  float: left;
-  margin: 0px 10px 0px 0px;
-}
-
 @font-face {
   font-family: "Akkurat Pro Light";
   src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
@@ -591,43 +582,53 @@ table.small {
           flex-direction: column;
 }
 
+.assignments .badge, .assignments a.badge,
 .assignments .hw, .assignments a.hw,
 .assignments .pj, .assignments a.pj,
 .assignments .lec, .assignments a.lec,
 .assignments .lab, .assignments a.lab,
-.assignments .ec, .assignments a.ec, .lectures .hw, .lectures a.hw,
+.assignments .ec, .assignments a.ec, .lectures .badge, .lectures a.badge,
+.lectures .hw, .lectures a.hw,
 .lectures .pj, .lectures a.pj,
 .lectures .lec, .lectures a.lec,
 .lectures .lab, .lectures a.lab,
-.lectures .ec, .lectures a.ec, .assignment .hw, .assignment a.hw,
+.lectures .ec, .lectures a.ec, .assignment .badge, .assignment a.badge,
+.assignment .hw, .assignment a.hw,
 .assignment .pj, .assignment a.pj,
 .assignment .lec, .assignment a.lec,
 .assignment .lab, .assignment a.lab,
-.assignment .ec, .assignment a.ec, .reference .hw, .reference a.hw,
+.assignment .ec, .assignment a.ec, .reference .badge, .reference a.badge,
+.reference .hw, .reference a.hw,
 .reference .pj, .reference a.pj,
 .reference .lec, .reference a.lec,
 .reference .lab, .reference a.lab,
-.reference .ec, .reference a.ec, .lecture .hw, .lecture a.hw,
+.reference .ec, .reference a.ec, .lecture .badge, .lecture a.badge,
+.lecture .hw, .lecture a.hw,
 .lecture .pj, .lecture a.pj,
 .lecture .lec, .lecture a.lec,
 .lecture .lab, .lecture a.lab,
-.lecture .ec, .lecture a.ec, .readings .hw, .readings a.hw,
+.lecture .ec, .lecture a.ec, .readings .badge, .readings a.badge,
+.readings .hw, .readings a.hw,
 .readings .pj, .readings a.pj,
 .readings .lec, .readings a.lec,
 .readings .lab, .readings a.lab,
-.readings .ec, .readings a.ec, .link-menu .hw, .link-menu a.hw,
+.readings .ec, .readings a.ec, .link-menu .badge, .link-menu a.badge,
+.link-menu .hw, .link-menu a.hw,
 .link-menu .pj, .link-menu a.pj,
 .link-menu .lec, .link-menu a.lec,
 .link-menu .lab, .link-menu a.lab,
-.link-menu .ec, .link-menu a.ec, .two-column article .hw, .two-column article a.hw,
+.link-menu .ec, .link-menu a.ec, .two-column article .badge, .two-column article a.badge,
+.two-column article .hw, .two-column article a.hw,
 .two-column article .pj, .two-column article a.pj,
 .two-column article .lec, .two-column article a.lec,
 .two-column article .lab, .two-column article a.lab,
-.two-column article .ec, .two-column article a.ec, .syllabus .hw, .syllabus a.hw,
+.two-column article .ec, .two-column article a.ec, .syllabus .badge, .syllabus a.badge,
+.syllabus .hw, .syllabus a.hw,
 .syllabus .pj, .syllabus a.pj,
 .syllabus .lec, .syllabus a.lec,
 .syllabus .lab, .syllabus a.lab,
-.syllabus .ec, .syllabus a.ec, .schedule .hw, .schedule a.hw,
+.syllabus .ec, .syllabus a.ec, .schedule .badge, .schedule a.badge,
+.schedule .hw, .schedule a.hw,
 .schedule .pj, .schedule a.pj,
 .schedule .lec, .schedule a.lec,
 .schedule .lab, .schedule a.lab,
@@ -647,48 +648,63 @@ table.small {
   font-family: 'Akkurat Pro Regular';
 }
 
+.assignments .badge:hover, .assignments a.badge:hover,
 .assignments .hw:hover, .assignments a.hw:hover,
 .assignments .pj:hover, .assignments a.pj:hover,
 .assignments .lec:hover, .assignments a.lec:hover,
 .assignments .lab:hover, .assignments a.lab:hover,
-.assignments .ec:hover, .assignments a.ec:hover, .lectures .hw:hover, .lectures a.hw:hover,
+.assignments .ec:hover, .assignments a.ec:hover, .lectures .badge:hover, .lectures a.badge:hover,
+.lectures .hw:hover, .lectures a.hw:hover,
 .lectures .pj:hover, .lectures a.pj:hover,
 .lectures .lec:hover, .lectures a.lec:hover,
 .lectures .lab:hover, .lectures a.lab:hover,
-.lectures .ec:hover, .lectures a.ec:hover, .assignment .hw:hover, .assignment a.hw:hover,
+.lectures .ec:hover, .lectures a.ec:hover, .assignment .badge:hover, .assignment a.badge:hover,
+.assignment .hw:hover, .assignment a.hw:hover,
 .assignment .pj:hover, .assignment a.pj:hover,
 .assignment .lec:hover, .assignment a.lec:hover,
 .assignment .lab:hover, .assignment a.lab:hover,
-.assignment .ec:hover, .assignment a.ec:hover, .reference .hw:hover, .reference a.hw:hover,
+.assignment .ec:hover, .assignment a.ec:hover, .reference .badge:hover, .reference a.badge:hover,
+.reference .hw:hover, .reference a.hw:hover,
 .reference .pj:hover, .reference a.pj:hover,
 .reference .lec:hover, .reference a.lec:hover,
 .reference .lab:hover, .reference a.lab:hover,
-.reference .ec:hover, .reference a.ec:hover, .lecture .hw:hover, .lecture a.hw:hover,
+.reference .ec:hover, .reference a.ec:hover, .lecture .badge:hover, .lecture a.badge:hover,
+.lecture .hw:hover, .lecture a.hw:hover,
 .lecture .pj:hover, .lecture a.pj:hover,
 .lecture .lec:hover, .lecture a.lec:hover,
 .lecture .lab:hover, .lecture a.lab:hover,
-.lecture .ec:hover, .lecture a.ec:hover, .readings .hw:hover, .readings a.hw:hover,
+.lecture .ec:hover, .lecture a.ec:hover, .readings .badge:hover, .readings a.badge:hover,
+.readings .hw:hover, .readings a.hw:hover,
 .readings .pj:hover, .readings a.pj:hover,
 .readings .lec:hover, .readings a.lec:hover,
 .readings .lab:hover, .readings a.lab:hover,
-.readings .ec:hover, .readings a.ec:hover, .link-menu .hw:hover, .link-menu a.hw:hover,
+.readings .ec:hover, .readings a.ec:hover, .link-menu .badge:hover, .link-menu a.badge:hover,
+.link-menu .hw:hover, .link-menu a.hw:hover,
 .link-menu .pj:hover, .link-menu a.pj:hover,
 .link-menu .lec:hover, .link-menu a.lec:hover,
 .link-menu .lab:hover, .link-menu a.lab:hover,
-.link-menu .ec:hover, .link-menu a.ec:hover, .two-column article .hw:hover, .two-column article a.hw:hover,
+.link-menu .ec:hover, .link-menu a.ec:hover, .two-column article .badge:hover, .two-column article a.badge:hover,
+.two-column article .hw:hover, .two-column article a.hw:hover,
 .two-column article .pj:hover, .two-column article a.pj:hover,
 .two-column article .lec:hover, .two-column article a.lec:hover,
 .two-column article .lab:hover, .two-column article a.lab:hover,
-.two-column article .ec:hover, .two-column article a.ec:hover, .syllabus .hw:hover, .syllabus a.hw:hover,
+.two-column article .ec:hover, .two-column article a.ec:hover, .syllabus .badge:hover, .syllabus a.badge:hover,
+.syllabus .hw:hover, .syllabus a.hw:hover,
 .syllabus .pj:hover, .syllabus a.pj:hover,
 .syllabus .lec:hover, .syllabus a.lec:hover,
 .syllabus .lab:hover, .syllabus a.lab:hover,
-.syllabus .ec:hover, .syllabus a.ec:hover, .schedule .hw:hover, .schedule a.hw:hover,
+.syllabus .ec:hover, .syllabus a.ec:hover, .schedule .badge:hover, .schedule a.badge:hover,
+.schedule .hw:hover, .schedule a.hw:hover,
 .schedule .pj:hover, .schedule a.pj:hover,
 .schedule .lec:hover, .schedule a.lec:hover,
 .schedule .lab:hover, .schedule a.lab:hover,
 .schedule .ec:hover, .schedule a.ec:hover {
   opacity: 0.8;
+}
+
+.assignments .badge, .assignments .badge:hover, .lectures .badge, .lectures .badge:hover, .assignment .badge, .assignment .badge:hover, .reference .badge, .reference .badge:hover, .lecture .badge, .lecture .badge:hover, .readings .badge, .readings .badge:hover, .link-menu .badge, .link-menu .badge:hover, .two-column article .badge, .two-column article .badge:hover, .syllabus .badge, .syllabus .badge:hover, .schedule .badge, .schedule .badge:hover {
+  background: #F6F6F6;
+  color: #444;
 }
 
 .assignments .hw, .assignments a.hw, .lectures .hw, .lectures a.hw, .assignment .hw, .assignment a.hw, .reference .hw, .reference a.hw, .lecture .hw, .lecture a.hw, .readings .hw, .readings a.hw, .link-menu .hw, .link-menu a.hw, .two-column article .hw, .two-column article a.hw, .syllabus .hw, .syllabus a.hw, .schedule .hw, .schedule a.hw {
@@ -700,7 +716,7 @@ table.small {
 }
 
 .assignments .lec, .assignments a.lec, .lectures .lec, .lectures a.lec, .assignment .lec, .assignment a.lec, .reference .lec, .reference a.lec, .lecture .lec, .lecture a.lec, .readings .lec, .readings a.lec, .link-menu .lec, .link-menu a.lec, .two-column article .lec, .two-column article a.lec, .syllabus .lec, .syllabus a.lec, .schedule .lec, .schedule a.lec {
-  background: #846dac;
+  background: #5B85AA;
 }
 
 .assignments .lab, .assignments a.lab, .lectures .lab, .lectures a.lab, .assignment .lab, .assignment a.lab, .reference .lab, .reference a.lab, .lecture .lab, .lecture a.lab, .readings .lab, .readings a.lab, .link-menu .lab, .link-menu a.lab, .two-column article .lab, .two-column article a.lab, .syllabus .lab, .syllabus a.lab, .schedule .lab, .schedule a.lab {
@@ -1125,6 +1141,57 @@ blockquote.quote.slim:before {
 
 .two-column article h1 {
   font-size: 1.8em;
+}
+
+.module-image {
+  max-width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 1px #CCC;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+.nu-button, .nu-button:visited, .nu-button:active {
+  background: #684a98;
+  border: none;
+  color: #fff !important;
+  margin: 20px .5em 20px 0;
+  padding: .8em 1em .7em 1em;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.nu-button:hover, .nu-button:visited:hover, .nu-button:active:hover {
+  background: #846dac;
+  border: none;
+}
+
+ol.readings {
+  margin-bottom: 30px;
+}
+
+ol.readings ul.compact {
+  margin: 10px 0px 10px 0px;
+}
+
+ol.readings ul.compact li {
+  line-height: 1.3em;
+  font-size: 0.9em;
+  padding: 0px;
+  margin: 0px;
+  color: #999;
+}
+
+.subtitle {
+  margin: -20px 0px 15px 0px;
+  color: #676767;
+  font-family: "Campton Extra Light";
+  font-size: 1.2em;
 }
 
 /*! Inkpot Theme; https://github.com/uraimo/pygments-vimstyles */

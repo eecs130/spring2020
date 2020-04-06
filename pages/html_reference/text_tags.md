@@ -7,7 +7,7 @@ parent: HTML Resources
 permalink: /html-reference/text-tags/
 ---
 
-This page covers how to mark-up text using several basic HTML tags. See the [Formatting Content](http://www.lynda.com/HTML-tutorials/Formatting-content-HTML/170427/196141-4.html) (6:58) video from Lynda.com to get an overview, and then review the HTML tags below:
+This page covers how to mark-up text using several basic HTML tags. See the [Formatting Content](https://www.linkedin.com/learning/html-essential-training/formatting-content-with-html?u=75814418) (6:58) video from LinkedIn Learning to get an overview, and then review the HTML tags below:
 
 ## 1. Paragraphs
 The HTML **&lt;p&gt;** element defines a paragraph. Paragraphs require an opening and a closing tag.
@@ -16,7 +16,7 @@ The HTML **&lt;p&gt;** element defines a paragraph. Paragraphs require an openin
 
 
 > **Additional Resources**
-* Lynda.com Video: [Formatting Paragraphs](http://www.lynda.com/HTML-tutorials/Formatting-paragraphs/170427/196143-4.html) (5:35)
+* LinkedIn Learning Video: [Formatting Paragraphs](https://www.linkedin.com/learning/html-essential-training/formatting-paragraphs?u=75814418) (5:35)
 * W3Schools Reference: [http://www.w3schools.com/html/html_headings.asp](http://www.w3schools.com/html/html_headings.asp)
 
 ## 2. Headings
@@ -25,7 +25,7 @@ Headings are defined using the **&lt;h1&gt;** to **&lt;h6&gt;** tags, where **&l
 <iframe src="//codepen.io/vanwars/embed/BzprzJ/?theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
 
 > **Additional Resources**
-* Lynda.com Video: [Using Headings](http://www.lynda.com/HTML-tutorials/Using-headings/170427/196142-4.html) (7:50)
+* LinkedIn Learning Video: [Using Headings](https://www.linkedin.com/learning/html-essential-training/using-headings?u=75814418) (7:50)
 * W3Schools Reference: [http://www.w3schools.com/html/html_headings.asp](http://www.w3schools.com/html/html_headings.asp)
 
 ## 3. Line Breaks & White Space
@@ -34,7 +34,7 @@ Line breaks are defined using the **&lt;br&gt;** tag. Use this tag if you want f
 <iframe src="//codepen.io/vanwars/embed/XKpQNN/?theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
 
 > **Additional Resources**
-* Lynda.com Video: [Line Breaks](http://www.lynda.com/HTML-tutorials/Controlling-line-breaks/170427/196144-4.html) (3:46)
+* LinkedIn Learning Video: [Line Breaks](https://www.linkedin.com/learning/html-essential-training/controlling-line-breaks?u=75814418) (3:46)
 * W3Schools Reference: [http://www.w3schools.com/html/html_paragraphs.asp](http://www.w3schools.com/html/html_paragraphs.asp)
 
 ## 4. Text Emphasis

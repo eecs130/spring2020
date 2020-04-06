@@ -8,7 +8,7 @@ permalink: /html-reference/images/
 
 > **Overview Resources**
 >
-> * Lynda.com video: [Displaying Images](http://www.lynda.com/HTML-tutorials/Displaying-images/170427/196148-4.html) (7:08)
+> * LinkedIn Learning video: [Displaying Images](https://www.linkedin.com/learning/html-essential-training/displaying-images?u=75814418) (7:08)
 > * W3Schools Reference: [http://www.w3schools.com/html/html_images.asp](http://www.w3schools.com/html/html_images.asp)
 
 
