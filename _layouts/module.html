@@ -21,8 +21,9 @@ show_outline: true
 
 
 {{content}}
+
+<h2 id="slides">Review the Slides</h2>
 {% if page.slides %}
-    <h2 id="slides">Review the Slides</h2>
     <ol>
     {% for slide in page.slides %}
         <li>
@@ -30,10 +31,13 @@ show_outline: true
         </li>
     {% endfor %}
     </ol>
+{% else %}
+    <p>Slides will be posted soon.</p>
 {% endif %}
 
+
+<h2 id="videos">Watch the Lecture Video(s)</h2>
 {% if page.videos %}
-    <h2 id="videos">Watch the Lecture Video(s)</h2>
     <ol>
     {% for video in page.videos %}
         <li>
@@ -41,6 +45,8 @@ show_outline: true
         </li>
     {% endfor %}
     </ol>
+{% else %}
+    <p>Videos will be posted soon.</p>
 {% endif %}
 
 {% if page.readings %}

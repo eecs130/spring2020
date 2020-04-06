@@ -2,13 +2,16 @@
 layout: module
 title: The Building Blocks
 type: lecture
-draft: 1
+draft: 0
 show_schedule: 1
 num: 2
 description:
   - Intro to Web Languages and the Browser
   - Overview of HTML
 due_date: 2020-04-08
+slides:
+   - url: https://docs.google.com/presentation/d/1EQZG0JI1P7HNk6jHEMzEr6V2be87V9k3_i-Et7W4-Ro/edit?usp=sharing
+     title: Intro to Browsers & Web Languages
 readings:
    - url: ../html-reference/
      title: HTML Resources
@@ -54,13 +57,6 @@ readings:
      optional: 1
      source: https://www.html5rocks.com/
      date: 2011
-
-videos:
-   - url: #
-     title: Vid 1
-   - url: #
-     title: Vid 2
-
 
 ---
 

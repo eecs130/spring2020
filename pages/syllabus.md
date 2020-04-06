@@ -79,12 +79,12 @@ For any other issues that you think are not appropriate for the peer mentors or 
 
 
 ## Grading
-This course will consist of weekly homework assignments and tutorial exercises, which will help you build up to a final project. There will be 7 tutorials. You may miss 1 without a grade penalty. Your pass is to be used for sickness, unexpected events, etc., so don't cash it in too early!
+This course will consist of weekly homework assignments and tutorial exercises, which will help you build up to a final project. There will be 9 tutorials. You may miss 2 without a grade penalty. Your passes are to be used for sickness, unexpected events, etc., so don't cash them in too early!
 
 {:.small}
 | **5 Homeworks** | 5 x 10 Points | 50% |
-| **1 Project** | 1 x 35 Points | 35% |
-| **6 Tutorials** | 6 x 2.5 Points | 15% |
+| **1 Project** | 1 x 36 Points | 36% |
+| **7 Tutorials** | 7 x 2 Points | 14% |
 | | | **100%** |
 
 Ordinarily, final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. However in light of the COVID-19 situation, the provost has instituted Pass/No Pass grading for all undergraduate students. In this class, that means that if you earn at least 70 points (i.e. a 70% or above), you pass.

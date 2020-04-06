@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: TBD
 abbreviation: HW2
 type: homework
-due_date: 2020-04-22
+due_date: 2020-04-24
 ordering: 1 
 points: 10
 draft: 1
