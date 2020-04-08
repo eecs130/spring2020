@@ -9,6 +9,10 @@ description:
   - Intro to Web Languages and the Browser
   - Overview of HTML
 due_date: 2020-04-08
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/7pYlIe_P51NLZp3Dx1zZeZ4CB6Teeaa8gyMerPJYmE94HkE1r14V4sZZlj2QOmk_
+     title: Intro to the Web Browser
+     live: 1
 slides:
    - url: https://docs.google.com/presentation/d/1EQZG0JI1P7HNk6jHEMzEr6V2be87V9k3_i-Et7W4-Ro/edit?usp=sharing
      title: Intro to Browsers & Web Languages
