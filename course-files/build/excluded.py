@@ -11,7 +11,7 @@ EXCLUDED = [
     'build_navigator.py',
     'notebook-to-script.py',
     'my_token.py',
-    'index.html',
+    # 'index.html',
     'index.md',
     'drafts',
     '_drafts',

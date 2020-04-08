@@ -6,6 +6,12 @@
     float: left;
     margin: 0px 10px 0px 0px;
 }
+img.medium {
+    max-width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px #CCC;
+}
 
 .nu-button, .nu-button:visited, .nu-button:active {
     &:hover {
@@ -21,6 +27,9 @@
     text-transform: uppercase;
     transition: 0.3s ease;
     text-decoration: none;
+    i {
+        margin-left: 5px;
+    }
 }
 
 
@@ -47,4 +56,10 @@ ol.readings {
 
 .highlighter-rouge {
     margin-bottom: 18px;
+}
+
+@media (max-width: 800px) {  
+    img.medium {
+        max-width: 100%;
+    }
 }

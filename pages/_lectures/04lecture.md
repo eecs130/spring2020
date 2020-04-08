@@ -60,4 +60,4 @@ readings:
 
 ---
 
-In this module, you will begin coding actual web pages using HTML.
+In this lesson, we will review how web pages get rendered in your web browser, and how HTML, CSS, and JavaScript work together to create web pages.

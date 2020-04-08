@@ -33,7 +33,7 @@ show_outline: true
         </li>
     {% endfor %}
     </ol>
-{% else %}
+{% elsif page.type == "lecture" %}
     <p>Slides will be posted soon.</p>
 {% endif %}
 
@@ -53,7 +53,7 @@ show_outline: true
         </li>
     {% endfor %}
     </ol>
-{% else %}
+{% elsif page.type == "lecture" %}
     <p>Videos will be posted soon.</p>
 {% endif %}
 
