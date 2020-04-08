@@ -21,51 +21,51 @@
     }
 }
 
-@media (max-width: 800px) {   
-    .two-column {
-        main {
-            padding-left: 5vw;
-            padding-right: 5vw;
-        }
-    }
-    table {
-        td {
-            font-family: "Akkurat Pro Regular";
-        }
-    }
-    .schedule {
-        table {
-            // th:nth-child(4), td:nth-child(4) {
-            //     display: none;
-            // }
-            td:nth-child(1), th:nth-child(1) {
-                min-width: 72px;
-                width: 72px;
-            }
-            td:nth-child(2), th:nth-child(2) {
-                min-width: 40px;
-                width: 40px;
-            }
-        }
-    }
+//@media (max-width: 800px) {   
+//     .two-column {
+//         main {
+//             padding-left: 5vw;
+//             padding-right: 5vw;
+//         }
+//     }
+//     table {
+//         td {
+//             font-family: "Akkurat Pro Regular";
+//         }
+//     }
+//     .schedule {
+//         table {
+//             // th:nth-child(4), td:nth-child(4) {
+//             //     display: none;
+//             // }
+//             td:nth-child(1), th:nth-child(1) {
+//                 min-width: 72px;
+//                 width: 72px;
+//             }
+//             td:nth-child(2), th:nth-child(2) {
+//                 min-width: 40px;
+//                 width: 40px;
+//             }
+//         }
+//     }
 
-    .two-column {
-        main > article {
-            margin-top: auto;
-            width: auto;
-            margin: 0px;
-            padding: 0px;
-        }
-        .desktop { display: none; }
-        .mobile { display: flex; }
+//     .two-column {
+//         main > article {
+//             margin-top: auto;
+//             width: auto;
+//             margin: 0px;
+//             padding: 0px;
+//         }
+//         .desktop { display: none; }
+//         .mobile { display: flex; }
 
-        aside {
-            display: none;
-        }
-    }
-}
+//         aside {
+//             display: none;
+//         }
+//     }
+// }
     
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .one-column, .two-column {
         main {
             min-height: 82vh;
@@ -157,6 +157,15 @@
                     }
                 }
             }
+        }
+        main > article {
+            margin-top: auto;
+            width: auto;
+            margin: 0px;
+            padding: 0px;
+        }
+        aside {
+            display: none;
         }
     }
     .module-image {
