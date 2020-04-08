@@ -24,8 +24,8 @@ Taking this course means committing – for 9 weeks – to practicing your emerg
 ### Lectures
 Lectures will be taught both asynchronously and live:
 
-1. Most days, I will introduce some of the course content via pre-recorded lectures that you will be expected to review before the course starts. These will be made available on the course website.
-2. Then, during regularly scheduled class time Mondays and Wednesdays from 4-4:50PM (Central Time), we will do interactive Q&A sessions on Zoom together, with professor Van Wart. During these times, we will do some coding together, and go over some concepts and techniques using some examples. 
+1. I will introduce some of the course content via pre-recorded lectures that you will be expected to review. I will post these lectures on the course website (on the page associated with the particular lesson).
+2. Then, during regularly scheduled class time Mondays and Wednesdays (from 4-4:50PM Central Time), we will do interactive Q&A sessions on Zoom together, with professor Van Wart. During these times, we will do some coding together, and go over some concepts and techniques, and get your questions answered. All lectures will be recorded, and attendance is encouraged (because it's much more interesting for me to talk to people), but not required.
 
 ### Tutorial Sessions
 This course also involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of various web concepts. There are two ways to earn full participation credit in each tutorial session:
