@@ -94,8 +94,9 @@ layout: default
             }
             else if (numDays < 0) {
                 lastTd.innerHTML = "due tonight";
-            } else {
-                lastTd.innerHTML = numDays.toFixed();
+            }
+            else {
+                lastTd.innerHTML = (numDays + 1).toFixed();
             }
         }
     }

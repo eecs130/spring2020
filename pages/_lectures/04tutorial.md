@@ -9,7 +9,7 @@ num: 1
 description:
   - Installing & configuring Atom
   - Practice with HTML tags
-due_date: 2020-04-09
+due_date: 2020-04-10
 ---
 
 {:.blockquote-no-margin}
