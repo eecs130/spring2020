@@ -22,7 +22,9 @@ show_outline: true
 
 {{content}}
 
-<h2 id="slides">Review the Slides</h2>
+{% if page.type == "lecture" %}
+    <h2 id="slides">Review the Slides</h2>  
+{% endif %}
 {% if page.slides %}
     <ol>
     {% for slide in page.slides %}
@@ -35,8 +37,9 @@ show_outline: true
     <p>Slides will be posted soon.</p>
 {% endif %}
 
-
-<h2 id="videos">Watch the Lecture Video(s)</h2>
+{% if page.type == "lecture" %}
+    <h2 id="videos">Watch the Lecture Video(s)</h2>
+{% endif %}
 {% if page.videos %}
     <ol>
     {% for video in page.videos %}
