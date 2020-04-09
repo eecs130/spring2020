@@ -8,3 +8,11 @@
     {% for url in page.stylesheets %}
         <link rel="stylesheet" href="{{ url }}">
     {% endfor %}
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163192686-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-163192686-2');
+    </script>
