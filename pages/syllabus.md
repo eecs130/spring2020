@@ -10,8 +10,8 @@ permalink: /syllabus/
 | **Prerequisites** | No experience necessary! |
 | **Instructor** | Sarah Van Wart |
 | **Lecture** | MW 4:00-4:50pm, Online |
-| **Section 1 (Th)** | Th 4:00-4:50pm with Anna Deng |
-| **Section 2 (Fr)** | Fr 4:00-4:50pm with course staff (TBD) |
+| **Section 1 (Th)** | Th 4:00-4:50pm with Anna |
+| **Section 2 (Fr)** | Fr 4:00-4:50pm with Sarah |
 
 ## About the Course
 This course is an introduction to the web, and assumes no prior knowledge. If you feel like you know nothing about coding (as in computer code) or design, but are a little bit curious about the web, then this course for you. If you’ve had quite a bit of experience with coding and design but want to continue developing your skills / portfolio, then this course may also be for you, although you may eventually want to explore additional courses offered in the CS Department (e.g. Agile Programming, Information Visualization, Intro to HCI, etc.).

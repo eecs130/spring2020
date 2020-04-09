@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Office Hours & Studio Times
+title: Office Hours & Tutorial Times
 permalink: /times-locations/
 ---
 
