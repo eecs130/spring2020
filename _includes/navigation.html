@@ -1,7 +1,7 @@
 <nav>
     <ul>
-        <li {% if page.url == "/" or page.url contains "/lectures/" %}class="active"{% endif %}><a href="{{site.baseurl}}/" >Lessons</a></li>
         <li {% if page.url == "/syllabus/" %}class="active"{% endif %}><a href="{{site.baseurl}}/syllabus/">Syllabus</a></li>
+        <li {% if page.url == "/" or page.url contains "/lectures/" %}class="active"{% endif %}><a href="{{site.baseurl}}/" >Lessons</a></li>
         <li {% if page.url contains "/assignments/" %}class="active"{% endif %}><a href="{{site.baseurl}}/assignments/">Assignments</a></li>
         <li {% if page.url contains "reference" %}class="active"{% endif %}><a href="{{site.baseurl}}/design-reference/">Web Reference</a></li>
         <li {% if page.url == "/zoom/" %}class="active"{% endif %}><a href="{{site.baseurl}}/zoom/">Zoom</a></li>

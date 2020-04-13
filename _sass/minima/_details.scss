@@ -6,6 +6,16 @@
     float: left;
     margin: 0px 10px 0px 0px;
 }
+img.frame {
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px #CCC;
+}
+img.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 img.medium {
     max-width: 50%;
     border-radius: 5px;

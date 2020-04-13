@@ -71,3 +71,8 @@ show_outline: true
     </p>
     {{page.quiz_url}}
 {% endif %}
+
+{% if page.include_page %}
+    {% capture my_include %}{% include_relative {{ page.include_page }} %}{% endcapture %}
+    {{ my_include | markdownify }}
+{% endif %}
