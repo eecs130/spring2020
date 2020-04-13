@@ -1,6 +1,6 @@
 ---
 layout: module
-title: The Building Blocks
+title: The Building Blocks of the Web
 type: lecture
 draft: 0
 show_schedule: 1
@@ -19,7 +19,7 @@ slides:
 readings:
    - url: ../html-reference/
      title: HTML Resources
-     author: "Sarah Van Wart"
+     author: "Course staff"
      source: CS 130 Course Website
      date: 2020
      internal: 1
@@ -31,7 +31,6 @@ readings:
        - Image Tags
        - Media Tags
        - Compound Tags
-       - Semantic Tags
        - Form Tags
    - url: https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F6619359376505401345%3Ftrk%3Dshare_collection_url&account=75814418
      title: |
@@ -41,7 +40,7 @@ readings:
      sections:
        - Welcome
        - The importance of HTML
-       - Basic HTML dyntax
+       - Basic HTML syntax
        - Exploring an HTML document
        - Using headings
        - Formatting paragraphs

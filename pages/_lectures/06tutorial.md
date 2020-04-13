@@ -111,12 +111,13 @@ cs130
 ```
 
 Navigate into your repo folder, and then paste the text you just copied from GitHub, which will look something like the text below (but different, as it will be pointing to ***your*** GitHub repository). 
+{% assign repo_address = '{{ your repo address }}' %}
 
 ```shell
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin {{ your repo address }}
+git remote add origin {{ repo_address }}
 git push -u origin master
 ```
 
@@ -126,7 +127,7 @@ git push -u origin master
 | `git init` | Initializes an empty git repository on your file system |
 | `git add README.md` | Added the README.md file that git made to the list of files that are "tracked" by the repository. |
 | `git commit -m "first commit"` | "Commits" the change locally (analogous to registering a savepoint with git) |
-| `git remote add origin {{ your repo address }}` | Creates an association between your computer and your GitHub repository. |
+| `git remote add origin {{ repo_address }}` | Creates an association between your computer and your GitHub repository. |
 | `git push -u origin master` | Posts your files to GitHub |
 
 ### 4. Add and commit tutorial01 to your local and remote repo
