@@ -1,9 +1,9 @@
 ## Do the Activity
 
-### Get your files set up
+### A. Get your files set up
 Open this the CodePen: <a href="https://codepen.io/vanwars/pen/WWRqRY?editors=0100" target="_blank">https://codepen.io/vanwars/pen/WWRqRY</a> and either fork it (and edit it directly on CodePen), or download it to your computer and edit it via Atom.
 
-### Experiment with the Following CSS Techniques
+### B. Experiment with the following CSS techniques
 1. **Body copy**: apply some styling to the body text of your HTML page. Experiment with some following text properties: `font-family, font-size, line-height, color, font-size, text-transform, letter-spacing`
 1. **Header font**: apply some styling to the h1 tag by selecting, importing and applying a Google Font.
 1. **Style the img tag** and see if you can make it look like it’s sitting in a picture frame, using the following box-model properties:<br> `padding, border, border-radius, box-shadow, width`
@@ -16,3 +16,5 @@ Inspiration: <a href="https://ryanstutorials.net/css-tutorial/css-selectors.php#
 
 ### One Possible Solution
 <img class="frame" src="/spring2020/assets/images/lectures/activity1.gif">
+<br>
+<a class="nu-button" style="display: inline-block;margin-top: 20px;" href="https://codepen.io/vanwars/pen/QPpqLd?editors=0100" target="_blank">Code <i class="fas fa-external-link-alt"></i></a>
