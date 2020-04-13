@@ -9,6 +9,29 @@ slides:
 num: 4
 due_date: 2020-04-15
 include_page: "activities/activity1.md"
+# readings:
+#    - url: ../css-reference/
+#      title: |
+#         CSS Resources
+#      author: "Course staff"
+#      source: CS 130 Course Website
+#      date: 2020
+#      internal: 1
+#    - url: https://www.linkedin.com/learning/collections/6619359376476033024?u=75814418
+#      title: |
+#        Playlist 2: Structuring Page Content w/Semantic Tags 
+#      author: James Williamson
+#      linkedin: 1
+#      sections:
+#        - The value of structure
+#        - Controlling document outlines
+#        - The nav element
+#        - The article element
+#        - The section element
+#        - The aside element
+#        - The div element
+#        - Other semantic elements
+
    
 ---
 

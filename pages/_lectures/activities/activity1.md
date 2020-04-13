@@ -1,4 +1,4 @@
-## In-Class Activity
+## Do the Activity
 
 ### Get your files set up
 Open this the CodePen: <a href="https://codepen.io/vanwars/pen/WWRqRY?editors=0100" target="_blank">https://codepen.io/vanwars/pen/WWRqRY</a> and either fork it (and edit it directly on CodePen), or download it to your computer and edit it via Atom.
