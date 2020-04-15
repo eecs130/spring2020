@@ -127,7 +127,8 @@ As defined in Rule #2, selectors indicate which parts of the HTML you would want
 
 
 ### 8. Understand the Cascade
-> **Linked Learning References**
+
+#### Linked Learning References
 
 {:.medium}
 | <a href="https://www.linkedin.com/learning/css-essential-training-3/inheritance-and-specificity" target="_blank">Inheritance and specificity</a> | 4:33 |
@@ -145,20 +146,18 @@ Note: Some properties are not inherited (because it wouldn't make sense if they 
 
 ### 9. Know some common CSS properties & values
 The [CSS property reference](http://www.w3schools.com/cssref/default.asp) lists the properties available in the CSS language, however we want you to know a few of them very well:
-* [Color](/css/color.html)
-* color
+* [color](../color/)
 * background-color
 * border-color
 * specificy color by hexadecimal value, RGB, RGBA, or color name
-* [Text](/css/text_and_fonts.html)
-* text-align
-* letter-spacing
-* font-family
-* font-weight
-* word-spacing
-* line-height
-* CSS Box Model
-* CSS Positioning
+* [Text](../fonts/)
+* [text-align](../fonts/)
+* [letter-spacing](../fonts/)
+* [font-family](../fonts/)
+* [font-weight](../fonts/)
+* [word-spacing](../fonts/)
+* [line-height](../fonts/)
+* [CSS Box Model](../box-model/)
 * CSS Animation
 
 ### 10. Use as many CSS files as you want

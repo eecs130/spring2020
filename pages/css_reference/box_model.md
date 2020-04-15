@@ -1,8 +1,8 @@
 ---
 layout: two-column-resources
-title: Box Model & Layouts
+title: The Box Model
 parent: CSS Resources
-nav_order: 6
+nav_order: 5
 permalink: /css-reference/box-model/
 ---
 

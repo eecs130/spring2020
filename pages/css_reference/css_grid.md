@@ -2,7 +2,7 @@
 layout: two-column-resources
 title: CSS Grid & Flexbox
 parent: CSS Resources
-nav_order: 7
+nav_order: 6
 permalink: /css-reference/css-grid/
 ---
 
