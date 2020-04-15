@@ -6,8 +6,18 @@ nav_order: 2
 permalink: /css-reference/selectors/
 ---
 
-> **References**
-> W3Schools Reference:
+## Recommended Resources
+
+### LinkedIn Learning Videos
+
+{:.medium}
+| <a href="https://www.linkedin.com/learning/css-essential-training-3/type-and-universal-selectors" target="_blank">Type and universal selectors</a> | 3:20 |
+| <a href="https://www.linkedin.com/learning/css-essential-training-3/class-and-id-selectors" target="_blank">Class and id selectors</a> | 3:05 |
+| <a href="https://www.linkedin.com/learning/css-essential-training-3/class-and-id-selector-exercise" target="_blank">Class and id selector exercise</a> | 3:28 |
+| <a href="https://www.linkedin.com/learning/css-essential-training-3/descendant-selectors" target="_blank">Descendant selectors</a> | 3:48 |
+| <a href="https://www.linkedin.com/learning/css-essential-training-3/grouping-selectors" target="_blank">Grouping selectore</a> | 1:38 |
+
+### W3Schools Reference
 * [http://www.w3schools.com/css/css_syntax.asp](http://www.w3schools.com/css/css_syntax.asp)
 * [http://www.w3schools.com/cssref/css_selectors.asp](http://www.w3schools.com/cssref/css_selectors.asp)
 

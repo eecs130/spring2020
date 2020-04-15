@@ -2,7 +2,7 @@
 layout: two-column-resources
 title: Style Guides
 parent: CSS Resources
-nav_order: 10
+nav_order: 9
 permalink: /css-reference/style-guides/
 ---
 
