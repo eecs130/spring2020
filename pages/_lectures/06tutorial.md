@@ -38,15 +38,20 @@ description:
 > 1. Get familiar with the command line
 > 1. Install git and practice using it
 > 1. Register for GitHub and configure Git Pages
->
-> **Assigned reading:**
-> 1. Lynda.com Playlist: <a href="https://www.linkedin.com/learning/collections/6619359376471842816?u=75814418" target="_blank">Intro to GitHub</a>
-> 1. Command Line Tutorial (Mac or Windows)
 
-In your tutorial this week, you will be learning how to use GitHub and the command line. Please complete the following tasks:
 
-## Part 1: Intro to the Command Line
-Your TA will go over how to use the command line and some common commands. <a href="https://tutorial.djangogirls.org/en/intro_to_command_line/" target="_blank">Django Girls</a> is a good resource. I've also created a cheat sheet for you:
+## Part 1: Do the GitHub Tutorial (Ideally Prior to Your Tutorial)
+Please complete the <a href="https://www.linkedin.com/learning/collections/6619359376471842816?u=75814418" target="_blank">LinkedIn Learning GitHub tutorial</a> **before the tutorial** to help you better follow along. In order to access the LinkedIn content, please sign in with your NU account.
+
+<a class="nu-button" 
+    href="https://www.linkedin.com/checkpoint/enterprise/login/75814418?application=learning" 
+    target="blank">
+    Sign into LinkedIn Learning <i class="fas fa-external-link-alt"></i>
+</a>
+
+
+## Part 2: Intro to the Command Line
+In tutorial, your TA will go over how to use the command line and some common commands. <a href="https://tutorial.djangogirls.org/en/intro_to_command_line/" target="_blank">Django Girls</a> is a good resource. I've also created a cheat sheet for you:
 
 {:.instructions}
 | | DOS (Windows) | Shell (Mac / Linux) |
@@ -74,17 +79,17 @@ Other optional commands you may find useful...
 | **Delete a folder** | `> rmdir my_folder` | `$ rm -r my_folder` |
 
 
-## Part 2: Install Git
+## Part 3: Install Git
 In order to interact with GitHub, you need to install git. Before you install it, check and make sure it’s not already installed by:
 
 1. Opening your Terminal (Mac) or Command Prompt (Windows) and typing the word `git` at the command prompt. 
 2. If you get a message that says "not recognized" or something along those lines, then you need to install it: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a> 
 
 
-## Part 3: Register for an account on GitHub
+## Part 4: Register for an account on GitHub
 If you don’t already have a GitHub account, register for one: <a href="https://github.com/" target="_blank">https://github.com/join</a>.
 
-## Part 4: Set Up Your repository
+## Part 5: Set Up Your repository
 
 ### 1. Create repository
 1. Once you’ve logged into GitHub, click on the "Repositories" tab (upper left-hand side of your screen), and then click the green "New" button. 
@@ -142,7 +147,7 @@ It should now say that you tutorial01 files are being tracked.
 1. Now, commit your new tutorial01 files to the repo by typing:<br>`$ git commit -m "Adding my tutorial01 to the repo"`
 1. Finally, "push" your files to GitHub:<br>`$ git push origin master`
 
-## Part 5. Finally, Configure GitHub Pages
+## Part 6. Finally, Configure GitHub Pages
 GitHub also allows you to host pages. To enable GitHub pages, go to your repository and click on the settings tab. Then, scroll halfway down to the GitHub Pages section, and in the dropdown menu below "Source," select your master branch and then click the "Save" button. 
 
 <img src="/spring2020/assets/images/tutorials/tutorial02/image2.png" />
