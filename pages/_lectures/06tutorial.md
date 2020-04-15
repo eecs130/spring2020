@@ -34,6 +34,7 @@ description:
 
 </style>
 
+{:.blockquote-no-margin}
 > **LEARNING OBJECTIVES**
 > 1. Get familiar with the command line
 > 1. Install git and practice using it
