@@ -1,6 +1,7 @@
 ---
 layout: module
-title: Intro to CSS
+title: |
+    Intro to CSS: The DOM, Selectors, & the Cascade
 type: lecture
 draft: 0
 slides:

@@ -17,10 +17,15 @@ img.center {
     margin-left: auto;
 }
 img.medium {
-    max-width: 50%;
-    border-radius: 5px;
-    padding: 5px;
-    border: solid 1px #CCC;
+    max-width: 550px;
+}
+img.medium-lg {
+    max-width: 70%;
+}
+ol.spaced, ul.spaced {
+    li {
+        margin-bottom: 20px;
+    }
 }
 
 .nu-button, .nu-button:visited, .nu-button:active {

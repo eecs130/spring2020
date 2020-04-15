@@ -22,7 +22,8 @@ Below, I have curated some resources and LinkedIn Learning playlists to help you
 3. [Color]({{site.baseurl}}/css-reference/color/)
 4. [Text & Fonts]({{site.baseurl}}/css-reference/fonts/)
 5. [Box Model]({{site.baseurl}}/css-reference/box-model/)
-6. [CSS Grid & Flexbox]({{site.baseurl}}/css-reference/css-grid/)
-7. [Media Queries]({{site.baseurl}}/css-reference/media-queries/)
-8. [Style Guides]({{site.baseurl}}/css-reference/style-guides/)
+6. [Flexbox]({{site.baseurl}}/css-reference/flexbox/)
+7. [CSS Grid]({{site.baseurl}}/css-reference/css-grid/)
+8. [Media Queries]({{site.baseurl}}/css-reference/media-queries/)
+9. [Style Guides]({{site.baseurl}}/css-reference/style-guides/)
 
