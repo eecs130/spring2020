@@ -17,8 +17,14 @@ draft: 1
     }
 </style>
 
-## Preview
-This is the first of a 2-part exercise that is intended to help you to understand how HTML, CSS, and JavaScript work together to produce a web app. To do this, we will be reverse engineering the Spotify website. In the first part of this assignment, you will be working on designing the look-and-feel of the website. In the second part, you will actually be programming the interface so that it queries spotify, pulls songs, images, and text down from the Spotify servers, and plays music.
+With respect to interface design, Layouts are, hands-down, one of the most difficult things to accomplish in CSS.
+
+
+## Part 1: Flexbox exercise
+**Skills practice**: Understanding the rules of flexbox
+
+## Part 2: Spotify CSS
+This is the first of a 2-part exercise that is intended to help you to understand how HTML, CSS, and JavaScript work together to produce a web app. To do this, we will be reverse engineering the Spotify website. for this week, you will be working on designing the look-and-feel of the website. In a future assigment, you will actually be programming the interactions / data queries using JavaScript in order to pull down acutal songs, images, and text down from the Spotify servers (and play some music).
 
 Please begin by downloading the assignment files:
 
@@ -33,7 +39,7 @@ In this assignment, you will create the Desktop UI pictured below (click to make
 
 <a href="{{site.baseurl}}/assets/images/homework/hw02/screen_1.png" target="_blank"><img src="{{site.baseurl}}/assets/images/homework/hw02/screen_1.png" /></a>
 
-### Step #1: Left Navigation
+### A. Left Navigation
 Complete the following tasks:
 
 {:.checkbox}
@@ -66,7 +72,7 @@ Other than adding the icons, please do not make any other changes to the HTML.
 In the `style.css` file, update the CSS to make the UI look like the screenshots (pictured above). This should be accomplished primarily by using flexbox properties and the box model. Be sure to put all of the CSS related to the left navigation in style.css.
 
 
-### Step #2: Header & Nav Styling
+### B. Header & Nav Styling
 Next, you need to style the `header` and `nav` sections:
 ```html
 <header>
@@ -85,7 +91,7 @@ Next, you need to style the `header` and `nav` sections:
 In the `style.css` file, add CSS style blocks to make the UI look like the screenshots (pictured above). Just as with Step #1, all alignment should be done using the box model (e.g. padding, margin, height, width) and with flexbox (e.g. flex-direction, justify-content, align-items).
 
 
-### Step #3: Artists Panel
+### C. Artists Panel
 Next, you need to style the `section` cards that represent each Spotify artist (pictured below):
 
 ```html
@@ -105,7 +111,7 @@ Next, you need to style the `section` cards that represent each Spotify artist (
 {:.checkbox}
 In the `style.css` file, add CSS style blocks to make the UI look like the screenshots (pictured above). Again, all alignment should be done using the box model (e.g. padding, margin, height, width) and with flexbox (e.g. flex-direction, justify-content, align-items).
 
-### Step #4: Create Responsive UIs
+### D. Create Responsive UIs
 
 {:.checkbox}
 Create the following responsive UIs shown below. If you're using more than 10-15 lines of code to achieve each of these effects, you're on the wrong track. Add the CSS to make these responsive UIs to `style.css`.
@@ -118,7 +124,7 @@ Create the following responsive UIs shown below. If you're using more than 10-15
 
 <a href="{{site.baseurl}}/assets/images/homework/hw02/screen_5.png" target="_blank"><img src="{{site.baseurl}}/assets/images/homework/hw02/screen_5.png" /></a>
 
-### Step #5: Hover Effects
+### E. Hover Effects
 
 {:.checkbox}
 Finally, implement the 4 hover effects shown in this video.
@@ -129,12 +135,12 @@ Finally, implement the 4 hover effects shown in this video.
 
 {:.checkbox-list}
 * Left Navigation:  
-  * Icons added **(2 pts)**
-  * Styling reflects screenshot **(2 pts)**
-* Header & Nav Styling **(2 pts)** 
-* Artists Panel **(3 pts)**
+  * Icons added **(1 pts)**
+  * Styling reflects screenshot **(1 pts)**
+* Header & Nav Styling **(1 pts)** 
+* Artists Panel **(2 pts)**
 * Responsive UIs Implemented **(3 pts)**
-* Hover effects implemented **(3 pts)**
+* Hover effects implemented **(2 pts)**
 
 ## What to Turn In
 Turn in a zip file of the `your_task` files with your completed HTML and CSS files.
