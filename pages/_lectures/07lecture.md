@@ -5,7 +5,7 @@ type: lecture
 draft: 0
 num: 5
 slides:
-   - url: https://docs.google.com/presentation/d/1Xbq-hXcfKSI7GG_0nmlJLOBDqwQasAtsRKHajmLHy2s/edit?usp=sharing
+   - url: https://docs.google.com/presentation/d/1inUocjpoXTxhqPm2awyO1MMgTHJj4BPWzCXzVEQQzjA/edit?usp=sharing
      title: |
         Rules of Composition & Fonts
 description:
