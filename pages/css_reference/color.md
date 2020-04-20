@@ -6,8 +6,13 @@ nav_order: 3
 permalink: /css-reference/color/
 ---
 
+## Color resources
+* [https://coolors.co/](https://coolors.co/) 
+* [https://www.colourlovers.com/](https://www.colourlovers.com/) 
+* [https://uigradients.com](https://uigradients.com)
+* [https://color.adobe.com](https://color.adobe.com)
 
-## Resources
+## Documentation & videos
 
 * LinkedIn Learning video: [The color property](https://www.linkedin.com/learning/css-essential-training-3/the-color-and-property-values) (4:12)
 * W3Schools Reference:

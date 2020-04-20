@@ -15,7 +15,9 @@ As you’re learning about web design and implementing components, it will be us
 ## Style Guides and Guidelines
 As you instantiate your frameworks, keep in mind that most companies have standardized widgets, stylesheets, and guidelines to ensure an integrated look-an-feel. Here are some style guides. Please use them to get ideas!
 
-{:.small}
+{:.medium}
+| Organization | Name of Design Brand |
+|--|--|
 | Salesforce | [Lightning Design System](https://www.lightningdesignsystem.com) |
 | Lonely Planet | [Style Guide](https://rizzo.lonelyplanet.com/styleguide/design-elements/) |
 | Alibaba | [Ant Design](https://ant.design) |

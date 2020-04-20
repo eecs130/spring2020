@@ -2,11 +2,12 @@
 layout: module
 title: Intro to Visual Design - Part II
 type: lecture
-draft: 1
+draft: 0
 num: 6
 description:
-  - Layouts
-  - Responsive UIs
+  - Color
+  - Values
+  - Branding
 slides:
    - url: https://docs.google.com/presentation/d/1Xbq-hXcfKSI7GG_0nmlJLOBDqwQasAtsRKHajmLHy2s/edit?usp=sharing
      title: |
@@ -18,5 +19,6 @@ include_page: "activities/activity3.md"
 
 Today we will be discussing a few different visual design and usability principles:
 
-* Selecting Colors
-* Communicating values in Visual Design
+* Selecting [colors](../css-reference/color/)
+* Communicating <a href="https://docs.google.com/document/d/1Vv5tPZ8UjqJNYO9pCp_PQhxHT8qoGY09deKX6uygUFA/edit?usp=sharing" target="_blank">values</a> through visual design
+* Examples of [style guides](../css-reference/style-guides/)
