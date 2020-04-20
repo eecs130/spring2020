@@ -18,12 +18,13 @@ Below, I have curated some resources and LinkedIn Learning playlists to help you
 
 ### Course Website
 1. [CSS Rules of Thumb]({{site.baseurl}}/css-reference/rules-of-thumb/)
-2. [CSS Selectors]({{site.baseurl}}/css-reference/selectors/)
-3. [Color]({{site.baseurl}}/css-reference/color/)
-4. [Text & Fonts]({{site.baseurl}}/css-reference/fonts/)
-5. [Box Model]({{site.baseurl}}/css-reference/box-model/)
-6. [Flexbox]({{site.baseurl}}/css-reference/flexbox/)
-7. [CSS Grid]({{site.baseurl}}/css-reference/css-grid/)
-8. [Media Queries]({{site.baseurl}}/css-reference/media-queries/)
-9. [Style Guides]({{site.baseurl}}/css-reference/style-guides/)
+1. [CSS Selectors]({{site.baseurl}}/css-reference/selectors/)
+1. [Color]({{site.baseurl}}/css-reference/color/)
+1. [Text & Fonts]({{site.baseurl}}/css-reference/fonts/)
+1. [Box Model]({{site.baseurl}}/css-reference/box-model/)
+1. [CSS Units]({{site.baseurl}}/css-reference/units/)
+1. [Flexbox]({{site.baseurl}}/css-reference/flexbox/)
+1. [CSS Grid]({{site.baseurl}}/css-reference/css-grid/)
+1. [Media Queries]({{site.baseurl}}/css-reference/media-queries/)
+1. [Style Guides]({{site.baseurl}}/css-reference/style-guides/)
 

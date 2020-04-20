@@ -1,13 +1,13 @@
 ---
 layout: assignment-two-column
 title: |
-   HTML & CSS Practice: The Spotify UI
+   HTML & CSS Practice: Spotify
 abbreviation: HW2
 type: homework
 due_date: 2020-05-01
-ordering: 1 
+ordering: 2 
 points: 10
-draft: 1
+draft: 0
 ---
 
 <style>
@@ -17,13 +17,121 @@ draft: 1
     }
 </style>
 
-With respect to interface design, Layouts are, hands-down, one of the most difficult things to accomplish in CSS.
+With respect to interface design, Layouts are, hands-down, one of the most difficult things to accomplish in CSS. As such, HW2 consists of three parts:
+
+1. A CSS Grid exercise (recommended)
+1. A Flexbox exercise (required)
+1. Implementing some of the Spotify interface (required)
+
+Whereas the first two are tutorial-style exercises that walk you through the steps of creating particular effects, you will do the Spotify activity on your own (but of course come to office hours and ask lots of questions).
+
+## Part 1: CSS Grid exercise (recommended)
+
+As mentioned in class, one of the biggest challenges in front-end web development is marshaling CSS and HTML to produce the kinds of layouts you envision in your head. [Tutorial 3](../lectures/08tutorial) was an effort to scaffold this learning process (solutions will be posted).
+
+To understand one approach to reproducing the Spotify layout, we have made an HTML and CSS file inside the "layout" directory. Together, `index.html` and `layout.css` produce the two layouts pictured below (for desktop and mobile).
+
+<img src="{{site.baseurl}}/assets/images/homework/hw02/desktop-layout.png" />
+<img src="{{site.baseurl}}/assets/images/homework/hw02/mobile-layout.png" />
+
+### Desktop Layout
+The main desktop layout is controlled by the CSS grid defined in the body selector. Each region of the page is then assigned to an area using the grid-area property. Note, there are other ways to accomplish this same effect. This is one approach.
+
+```css
+body {
+    display: grid;
+    overflow: hidden;
+    margin: 0px;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto 100px;
+    grid-template-areas:
+       "left main"
+       "bottom bottom";
+    height: 100vh;
+}
+```
+### Mobile Layout
+The mobile layout is achieved by overriding some of the CSS properties within a media query. In this case, the grid is redefined as a single-column layout, the left panel gets hidden, and the position of the header is reconfigured: 
+
+```css
+@media screen and (max-width: 700px) {
+    body {
+        grid-template-columns: auto;
+        grid-template-areas:
+           "main"
+           "bottom";
+        height: 100vh;
+    }
+    header {
+        left: 0px;
+        width: 100vw;
+    }
+    aside {
+        display: none;
+    }
+}
+```
+
+#### Practice
+Please open `layout/index.html` and `layout/layout.css` and study them. The techniques used in these files will form the basis of your Spotify app.
 
 
-## Part 1: Flexbox exercise
-**Skills practice**: Understanding the rules of flexbox
+## Part 2: Flexbox exercise + image formatting tips (required)
+The first part of HW2 involves going through a series of steps to create an image gallery that is responsive (i.e. mobile-friendly) and follows a principled set of alignment rules. We will use "flexbox" to do this. Please follow the steps below:
 
-## Part 2: Spotify CSS
+### Step 1: Create cards
+1. Flexbox
+2. Images -> Divs with background images
+
+### Step 2: Make your interface responsive
+1. Media Queries
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+```html
+<head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="hint_4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
+
+And some CSS...
+```css
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 50%;
+    }
+    .card .image-div {
+        height: 350px;
+    }
+}
+
+```
+
+### Step 3: Add borders / accents by adding another div
+A common design technique involves adding borders to your cards and spacing them x-units apart. However, margin isn't taken into account when your browser calculates widths. Therefore, if you set each card's width to 50% (so that you have two cards per row) but then you give each card a margin, this added margin will push your second card onto the next row. 
+
+Because of this, if you want to add a border, you'll have to create a child element inside the card and give the child element a border.
+
+### Step 4: Hover effects
+Pseudoclasses
+
+### Checklist
+
+{:.checkbox-list}
+* Desktop View:
+  * Photos are all the same size 
+  * There are three photos per row
+* Mobile View:
+  * When the screen is less than 1000 pixels, there are only two photos per row
+  * When the creen is less than 700 pixeks, there is only one photo per row
+* There is a border around each card
+* Hover effects have been implemented
+
+## Part 3: Spotify CSS (required)
 This is the first of a 2-part exercise that is intended to help you to understand how HTML, CSS, and JavaScript work together to produce a web app. To do this, we will be reverse engineering the Spotify website. for this week, you will be working on designing the look-and-feel of the website. In a future assigment, you will actually be programming the interactions / data queries using JavaScript in order to pull down acutal songs, images, and text down from the Spotify servers (and play some music).
 
 Please begin by downloading the assignment files:
