@@ -21,7 +21,7 @@ EXCLUDED = [
     '__pycache__',
     '.ipynb_checkpoints',
     '.DS_Store',
-    'images',
+    # 'images',
     '_site',
     '.vscode'
 ]
