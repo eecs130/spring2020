@@ -1,8 +1,8 @@
 # zip everything:
-python zip_it.py ../homework
-# python zip_it.py ../lectures
-python zip_it.py ../tutorials
+python3 zip_it.py ../homework
+# python3 zip_it.py ../lectures
+python3 zip_it.py ../tutorials
 
 # build indexes:
-# python build_navigator.py ../.
+# python3 build_navigator.py ../.
 
