@@ -17,7 +17,7 @@ draft: 0
     }
 </style>
 
-<a class="nu-button" href="{{site.baseurl}}/{{page.files}}">
+<a class="nu-button" href="/spring2020/course-files/homework/hw02.zip">
     download starter files 
     <i class="fas fa-download"></i>
 </a>
