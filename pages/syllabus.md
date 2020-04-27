@@ -38,7 +38,7 @@ I (prof. Van Wart) have a strong preference for option #1, because it’s a form
 Following the submission deadline, a solution and walkthrough of each problem will be made available via Canvas.
 
 ### Homework and Projects
-The majority of your grade will be based on 6 homework assignments and one final project -- creating a website of your choosing -- that you will complete over the course of the quarter. 
+The majority of your grade will be based on 4 homework assignments and one final project -- creating a website of your choosing -- that you will complete over the course of the quarter. 
 
 ## Course Staff
 ### Peer Mentors
@@ -82,8 +82,8 @@ For any other issues that you think are not appropriate for the peer mentors or 
 This course will consist of weekly homework assignments and tutorial exercises, which will help you build up to a final project. There will be 9 tutorials. You may miss 2 without a grade penalty. Your passes are to be used for sickness, unexpected events, etc., so don't cash them in too early!
 
 {:.small}
-| **5 Homeworks** | 5 x 10 Points | 50% |
-| **1 Project** | 1 x 36 Points | 36% |
+| **4 Homeworks** | 4 x 10 Points | 40% |
+| **1 Project** | 1 x 46 Points | 46% |
 | **7 Tutorials** | 7 x 2 Points | 14% |
 | | | **100%** |
 

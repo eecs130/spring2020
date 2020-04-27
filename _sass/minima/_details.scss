@@ -28,7 +28,8 @@ ol.spaced, ul.spaced {
     }
 }
 
-.nu-button, .nu-button:visited, .nu-button:active {
+.nu-button, .nu-button:visited, .nu-button:active,
+.button, .button:visited, .button:active {
     &:hover {
         background: $lightpurple;
         border: none;
@@ -44,6 +45,14 @@ ol.spaced, ul.spaced {
     text-decoration: none;
     i {
         margin-left: 5px;
+    }
+}
+
+.button, .button:visited, .button:active {
+    background: #EEE;
+    color: #444 !important;
+    &:hover {
+        background: #DDD;
     }
 }
 

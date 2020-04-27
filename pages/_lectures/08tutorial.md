@@ -10,6 +10,7 @@ description:
     - Practice with CSS Grid
 ---
 <a href="/spring2020/course-files/tutorials/tutorial03.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a>
+<a href="/spring2020/course-files/tutorials/tutorial03_solutions.zip" class="button">Solutions <i class="fas fa-download"></i></a>
 
 CSS is notoriously a nightmare -- particularly when it comes to layouts. As an effort to provide some guidance re: using some more modern techniques for layout, the course staff and I have created a basic CSS tutorial, where multiple layouts can be easily supported using CSS Grid -- the latest in a long line of strategies for simplifying layouts.
 

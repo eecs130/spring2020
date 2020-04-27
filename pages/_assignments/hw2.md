@@ -4,7 +4,7 @@ title: |
    HTML & CSS Practice: Spotify
 abbreviation: HW2
 type: homework
-due_date: 2020-05-01
+due_date: 2020-05-05
 ordering: 2 
 points: 10
 draft: 0
