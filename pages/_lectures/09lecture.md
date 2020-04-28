@@ -8,6 +8,11 @@ slides:
    - url: https://docs.google.com/presentation/d/1Qy9jA4waThszky2JmJQLuJNU-mImagR7XWn2hvIBs0Q/edit?usp=sharing
      title: |
         Grid, Media Queries, and Animations / Transitions
+
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/yM94EJvb7kRIGaPL023jcakjMN6_eaa8gCgd-PYEnkiauej5vwiSFu0rdQ5hrswg
+     title: CSS Transitions and Media Queries
+     live: 1
 due_date: 2020-04-27
 ---
 
