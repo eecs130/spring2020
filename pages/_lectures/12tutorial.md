@@ -1,5 +1,5 @@
 ---
-layout: lecture
+layout: module
 title: Tutorial 5
 type: tutorial
 draft: 1
@@ -10,4 +10,4 @@ description:
     - Functions and Event Handlers
 ---
 
-Intro to the course!
+TBD

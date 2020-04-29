@@ -1,6 +1,6 @@
 ---
 layout: module
-title: JavaScript and the DOM
+title: Practice manipulating the DOM with JavaScript
 type: lecture
 draft: 0
 num: 8
