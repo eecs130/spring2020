@@ -1,5 +1,5 @@
 ---
-layout: lecture
+layout: module
 title: Practice manipulating the DOM with JavaScript
 type: tutorial
 draft: 0
