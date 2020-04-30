@@ -8,6 +8,10 @@ due_date: 2020-04-29
 slides:
    - url: https://docs.google.com/presentation/d/1WWHJ0Y9qTqyJfjJEelH48LwROKBbq-W_U6LpS4jjdf0/edit?usp=sharing
      title: Intro to JavaScript
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/y8VacI_i8z9JBdLI9UDiAL89P6jKT6a80CBN-qIPnk7cf9dosewMLdOAyg-Gfw1m?startTime=1588193760000
+     title: What is JavaScript?
+     live: 1
 
 readings:
    - url: https://learning.oreilly.com/playlists/d99f7433-24b8-4370-8e33-f2bb8429e702
