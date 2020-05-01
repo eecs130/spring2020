@@ -49,7 +49,7 @@ Repeat the same general process with page-turner, by:
 1. Ensure that your `tutorial04` folder is inside of your repo folder.
 2. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial04 files are “untracked”
 3. Add all of your tutorial04 files to the list of files that are tracked by the repo:<br>`$ git add tutorial04`
-4. Check the status of your repo again:<br>`$ git add status`<br>It should now say that you tutorial04 files are being tracked.
+4. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial04 files are being tracked.
 5. Now, commit your new tutorial04 files to the repo:<br>`$ git commit -m "Adding my tutorial04 to the repo"`
 6. Finally, “push” your files to GitHub:<br>`$ git push`
 7. Paste a link to your GitHub repo and to your GitHub pages 
