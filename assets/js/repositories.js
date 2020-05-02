@@ -1,0 +1,61 @@
+fetch('../assets/data/repos.json')
+    .then(response => response.json())
+    .then(students => {
+        
+        console.log(students);
+        const rows = [];
+        for (const [i, student] of students.entries()) {
+            let row = `
+                <tr>
+                    <td>${i+1}</td>
+                    <td>${student.name}</td>`;
+            if (student.github_url) {
+                row += `<td><a href="${student.github_url}" target="_blank">GitHub Repo</a></td>`;
+            } else {
+                row += `<td>missing</td>`
+            }
+            if (student.gitpages_url) {
+                row += `
+                    <td><a href="${student.gitpages_url}" target="_blank">GitHub Pages</a></td>
+                    <td><a href="${student.gitpages_url}/hw01" target="_blank">hw1</a></td>
+                    <td><a href="${student.gitpages_url}/hw02" target="_blank">hw2</a></td>
+                    <td><a href="${student.gitpages_url}/hw03" target="_blank">hw3</a></td>
+                    <td><a href="${student.gitpages_url}/hw04" target="_blank">hw4</a></td>
+                `;
+            } else {
+                row += `
+                    <td>missing</td>
+                    <td> -- </td>
+                    <td> -- </td>
+                    <td> -- </td>
+                    <td> -- </td>
+                `;
+            }
+            rows.push(row + '</tr>');
+        }
+        const rowsHTML = rows.join('\n');
+        const html = `
+            <article>
+            <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>GitHub Repo</th>
+                    <th>GitHub Pages</th>
+                    <th>HW1</th>
+                    <th>HW2</th>
+                    <th>HW3</th>
+                    <th>HW4</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${rowsHTML}
+            </tbody>
+        </table>
+        </article>`;
+        const div = document.createElement("div"); 
+        div.innerHTML = html;
+        document.querySelector('main').appendChild(div);
+
+    });
