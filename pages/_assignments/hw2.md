@@ -244,7 +244,7 @@ Finally, implement the 4 hover effects shown in this video.
 * There is a border around each card **(1/2 pt)**
 * Mobile View **(1 pt)**
   * When the screen is between 1200 and 700 pixels, there are only **`THREE`** photos per row
-  * When the screen is less than 700 pixels, there are only **`TWO`** photo per row
+  * When the screen is less than 700 pixels, there are only **`TWO`** photos per row
 * Hover effects have been implemented **(1/2 pt)**
 
 ### Part 3 (7 Points)
