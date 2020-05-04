@@ -8,7 +8,7 @@ points: 2
 due_date: 2020-04-30
 
 ---
-<a href="/spring2020/course-files/tutorials/tutorial04.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a>
+<a href="/spring2020/course-files/tutorials/tutorial04.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> <a href="/spring2020/course-files/tutorials/tutorial04_solutions.zip" class="button">Solutions <i class="fas fa-download"></i></a>
 
 Please download the tutorial04 files and save them to your repo folder. Then, open the entire tutorial04 folder in Atom. To view how each of the projects should work upon completion, please see this screencast.
 
