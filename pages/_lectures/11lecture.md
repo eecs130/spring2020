@@ -1,10 +1,26 @@
 ---
-layout: lecture
+layout: module
 title: Building blocks of programming
 type: lecture
-draft: 1
+draft: 0
 num: 9
 due_date: 2020-05-04
+slides:
+   - url: https://docs.google.com/presentation/d/1elm49svtvPFtWlqn7AWpgkyp7vHo5kl8lbxIBWRmwQo/edit?usp=sharing
+     title: Intro to Programming
+readings:
+   - url: https://learning.oreilly.com/playlists/1e2e5976-709d-447c-8475-d6826d6ac78c
+     title: |
+        JavaScript: Intro to ES6
+     author: "Laurence Svekis"
+     source: "O'Reilly"
+     date: 2020
+     internal: 1
+
 ---
 
-TBD
+<a class="nu-button" href="/spring2020/course-files/lectures/lecture09.zip">
+    download starter files 
+    <i class="fas fa-download"></i>
+</a>
+<a href="http://turing.library.northwestern.edu/login?url=https://www.safaribooksonline.com/library/view/temporary-access/" target="_blank" class="button">Safari Books Login <i class="fas fa-link"></i></a>
