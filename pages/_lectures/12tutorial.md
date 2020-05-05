@@ -10,4 +10,7 @@ description:
     - Functions and Event Handlers
 ---
 
-TBD
+TODO:
+ * Something on DOM traversal
+ * Something on updating an element based on a source element (e.srcElement)
+ * Rock, Paper, Scissors
