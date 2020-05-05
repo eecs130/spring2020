@@ -15,7 +15,11 @@ readings:
      author: "Laurence Svekis"
      source: "O'Reilly"
      date: 2020
-     internal: 1
+videos:
+   - url: https://northwestern.zoom.us/rec/share/1fZXHZz890JLWc_pwkOOGfY-H4rKT6a8gHcd86YOxE9-R_aizLgZ6vne6dFulrBl?startTime=1588625766000
+     title: Data Types & Variables
+     live: 1
+
 
 ---
 
