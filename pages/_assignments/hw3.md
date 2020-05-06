@@ -9,6 +9,11 @@ points: 10
 draft: 0
 ---
 
+<a class="nu-button" href="/spring2020/course-files/homework/hw03.zip">
+    download starter files 
+    <i class="fas fa-download"></i>
+</a>
+
 > ## Guidelines:
 > 1. No third-party stylesheets
 > 2. No jQuery or third-party JavaScript libraries — we’re still working with vanilla JavaScript
