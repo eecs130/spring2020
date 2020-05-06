@@ -1,6 +1,7 @@
 ---
 layout: module
-title: Tutorial 5
+title: |
+    JavaScript & the DOM: Part 2
 type: tutorial
 draft: 0
 due_date: 2020-05-07
