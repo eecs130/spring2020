@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: Photo Carousel
 abbreviation: HW3
 type: homework
-due_date: 2020-05-13
+due_date: 2020-05-12
 ordering: 3
 points: 10
 draft: 0
