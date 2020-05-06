@@ -8,6 +8,12 @@ due_date: 2020-05-06
 slides:
    - url: https://docs.google.com/presentation/d/1AC_oe2k0vgmLAyRL9p4DiNeoVtDDCeF5IlEBPcybv-Q/edit?usp=sharing
      title: Functions + Events; Control
+
+videos:
+   - url: https://northwestern.zoom.us/rec/share/3ON3FJ3OznpObon0zniPcJcjF771aaa81SUd_qANnxmmddmScNEIFDQp0j2Q4Ofs?startTime=1588798621000
+     title: Functions & Events
+     live: 1
+ 
 ---
 
 <a class="nu-button" href="/spring2020/course-files/lectures/lecture10.zip">
