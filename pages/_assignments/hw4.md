@@ -33,7 +33,7 @@ Please begin by downloading the assignment files:
     <i class="fas fa-download"></i>
 </a>
 
-For this task, I have created the HTML and CSS for you. If you open **<a href="../course-files/assignments/hw05/sample/index.html" target="_blank">sample/index.html</a>** in your web browser, you will see an example of how I want your final interface to look. However, data from BTS is **hardcoded** in the interface. I want you to make it so that music / media from ANY artist can be searched. That is, each of the HTML widgets below must be converted into templates that can bind to data from Spotify.
+For this task, I have created the HTML and CSS for you. If you open **<a href="../course-files/homework/hw04/sample/index.html" target="_blank">sample/index.html</a>** in your web browser, you will see an example of how I want your final interface to look. However, data from BTS is **hardcoded** in the interface. I want you to make it so that music / media from ANY artist can be searched. That is, each of the HTML widgets below must be converted into templates that can bind to data from Spotify.
 
 ### Assignment Rules / Guidelines
 1. You **may not use any external libraries** other than the audio-player.js file that I made for you.
@@ -44,7 +44,7 @@ For this task, I have created the HTML and CSS for you. If you open **<a href=".
 
 
 ## Assignment Instructions
-In this assignment, you will use JavaScript to make the Spotify search/browse interface work. To do this, you will be editing files in the **<a href="../course-files/assignments/hw05/your_task/index.html" target="_blank">your_task</a>** folder. Please complete the four tasks listed below, following the guidelines listed:
+In this assignment, you will use JavaScript to make the Spotify search/browse interface work. To do this, you will be editing files in the **<a href="../course-files/homework/hw04s/your_task/index.html" target="_blank">your_task</a>** folder. Please complete the four tasks listed below, following the guidelines listed:
 
 
 ### Step #1: Display Artist

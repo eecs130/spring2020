@@ -167,9 +167,9 @@ Some useful element attributes:
 * Add the ability for a user to add a new photo to the gallery.
 
 ## What to turn in
-1. Put all of your homework 3 files in a folder called hw04 (should already be named correctly)
+1. Put all of your homework 3 files in a folder called hw03 (should already be named correctly)
 1. Add hw03 to your repo folder (should already be done)
-1. Add, commit, and push your hw04 folder to GitHub
+1. Add, commit, and push your hw03 folder to GitHub
 1. Make sure you paste a link to your GitHub pages to Canvas!
 
 
