@@ -1,8 +1,27 @@
+const sortAlphabetically = () => {
+    var items = Object.keys(dict).map(function(key) {
+        return [key, dict[key]];
+      });
+      
+      // Sort the array based on the second element
+      items.sort(function(first, second) {
+        return second[1] - first[1];
+      });
+};
+
 fetch('../assets/data/repos.json')
     .then(response => response.json())
     .then(students => {
-        
-        console.log(students);
+        students = students.sort(function(first, second) {
+            if (first.name < second.name) {
+                return -1;
+            }
+            if ( first.name > second.name) {
+                return 1;
+            }
+            return 0;
+        });
+        console.log(a);
         const rows = [];
         for (const [i, student] of students.entries()) {
             let row = `
