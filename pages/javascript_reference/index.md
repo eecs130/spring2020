@@ -224,10 +224,11 @@ Events are comprised of two parts:
 
 For instance, if I want to attach a "click" ***event listener*** to the button with the id of "subscribe", I would assign the **onclick** event of that button to a function that I specify. Example:
 
+#### HTML
 ```html
 <button id="subscribe">Subscribe</button>
 ```
-
+#### JavaScript
 ```js
 // event handler:
 const subscribe = () => {
