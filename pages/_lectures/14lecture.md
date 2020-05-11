@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: AJAX & Templating
+title: Loops & Templating; AJAX
 type: lecture
 draft: 1
 num: 12
