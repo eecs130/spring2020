@@ -1,5 +1,5 @@
 ---
-layout: lecture
+layout: module
 title: Conditional Statements and Data Types Part 2
 type: lecture
 draft: 0
