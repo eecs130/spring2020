@@ -32,7 +32,7 @@ When you are updating the DOM, there are three things you need to specify in you
 | 2. What do you want to change about the element(s)? | If it's an attribute, specify which one (see below). If it's a style property, specify which one (see below). |
 | 3. What do you want to change the element(s)' attribute / style property to? | Use the assignment operator (equal sign) to set the attribute / style property to a valid value. |
 
-### Examples
+Some applications of these three considerations are shown below:
 ```js
 // updating attributes
 document.querySelector('#my-header').innerHTML = 'Hey there!';
@@ -43,7 +43,7 @@ document.querySelector('.panel').style.background = 'hotpink';
 document.querySelector('.panel').style.fontSize = '3.5em';
 ```
 
-### Selector methods 
+### 1. Selector methods 
 
 | Method | Example | Notes |
 |--|--|--|
@@ -53,7 +53,7 @@ document.querySelector('.panel').style.fontSize = '3.5em';
 | getElementsByTagName() | document.getElementsByTagName("div") | analagous to querySelectorAll("tagName"); | 
 | getElementsByClassName() | document.getElementsByClassName("panel") | analagous to querySelectorAll(".className"); | 
 
-### HTML attributes
+### 2. HTML attributes
 
 | Attribute | Example |
 |--|--|
@@ -62,8 +62,53 @@ document.querySelector('.panel').style.fontSize = '3.5em';
 | src (for images) | document.getElementsByTagName("div") |
 | href (for links) | document.getElementsByClassName(".panel") |
 
+### 3. HTML element properties
+HTML element properties also allow you to navigate through the DOM. A list of common properties and an example are shown below:
 
-### Style properties
+| Property | Definition |
+|--|--|
+| firstElementChild | The element's first element child. If no children then null. |
+| lastElementChild | The element's next sibling element. If no children then null. |
+| nextElementSibling | The element's next sibling element. If no previous sibling then null. |
+| previousElementSibling | The element's previous sibling element. If no previous sibling then null. |
+| parentElement | The element's parent. If no parent then null. |
+
+#### HTML
+```html
+<section class="cards">
+    <div class="card" style="background-image:url('images/field1.jpg')"></div>
+    <div class="card" style="background-image:url('images/purple.jpg')"></div>
+    <div class="card" style="background-image:url('images/jar.jpg')"></div>
+</section>
+```
+#### JavaScript
+```js
+// EXAMPLE
+const cards = document.querySelector('.cards');
+
+// get first child of cards:
+const firstChild = cards.firstElementChild;
+console.log('first child:',firstChild);
+
+// get last child of cards:
+const lastChild = cards.lastElementChild;
+console.log('last child:', lastChild);
+
+// get first child's next sibling:
+const nextSibling = firstChild.nextElementSibling;
+console.log('first child\'s next sibling:', nextSibling);
+
+// get last child's previous sibling:
+const previousSibling = lastChild.previousElementSibling;
+console.log('last child\'s previous sibling:', previousSibling);
+
+// get last child's parent:
+const parent = lastChild.parentElement;
+console.log('last child\'s parent:', parent);
+```
+
+
+### 4. Style properties
 
 | Property | Example |
 |--|--|
@@ -73,6 +118,7 @@ document.querySelector('.panel').style.fontSize = '3.5em';
 | border-width | document.querySelector("div").style.borderWidth = "5px"; |
 | padding | document.querySelector("div").style.padding = "10px"; |
 | display | document.querySelector("div").style.display = "none"; |
+
 
 
 ## Data
@@ -88,7 +134,7 @@ document.querySelector('.panel').style.fontSize = '3.5em';
 | symbol | for unique identifiers (we won’t be using this one) | |
  
 
-### Figuring out the type of data you have
+### 1. Figuring out the type of data you have
 
 ```js
 console.log(typeof "hello world!");
@@ -102,7 +148,7 @@ console.log(typeof [1, 3, 4, 6]);
 console.log(typeof { name: "Lester", species: "dog", age: 15});
 ```
 
-### Functions that convert between data types
+### 2. Functions that convert between data types
 
 ```js
 // String(), Number(), Boolean()
@@ -114,6 +160,12 @@ console.log("true", typeof "true");
 console.log(Boolean("true"), typeof Boolean("true"));
 ```
 
+### 3. List Objects
+TBD
+
+### 4. Dictionary Objects
+TBD
+
 ## Variables
 * Variables are containers for storing and / or referencing data
 * Variables can also be used to alias data, functions, variables, objects, functions, etc. 
@@ -121,7 +173,7 @@ console.log(Boolean("true"), typeof Boolean("true"));
 * Variables are **case-sensitive**
 * Variables should be "camel case" 
 
-### Sample Naming Conventions (Mnemonic & Camel Case)
+### 1. Sample Naming Conventions (Mnemonic & Camel Case)
 ```js
 // variable names:
 let timeLeftTilEndOfClass = 35;
@@ -138,7 +190,7 @@ const moveAvatarLeft = (dog) => {
 };
 ```
 
-### Declaring Variables
+### 2. Declaring Variables
 In JavaScript, there are three keywords for declaring variables: let, const, and var.
 
 **`let`**
@@ -153,7 +205,7 @@ Avoid. Old way to do things prior to ES6.
 
 ## Operators
 
-### Arithmetic Operators
+### 1. Arithmetic Operators
 
 | Operator | Meaning | Description | 
 |--|--|--|
@@ -166,13 +218,34 @@ Avoid. Old way to do things prior to ES6.
 | ++ | Increment | Adds 1 to the number | 
 | -- | Decrement | Subtracts 1 from the number |
 
+### 2. Comparison Operators
+Comparison operators always evaluate to `true` or `false` and are often used with if/else statements and loops.
+
+| Operator | Meaning |
+|--|--|
+| == | Equality |
+| === | Strict Equality (both values and data types match) |
+| != | Not Equal |
+| >, >= | Greater than; greater than or equal to |
+| <, <= | Less than; Less than or equal to |
+
+See <a href="https://www.w3schools.com/js/js_comparisons.asp" target="_blank">W3 Schools</a> for more information and examples.
+
+### 3. Logical Operators
+
+| Operator | Meaning | Explanation |
+|--|--|
+| && | and | If both operands are true, then the "and expression" also evaluates to true. Otherwise, the "and expression" evaluates to false. | 
+| \|\| | or | If either or both of the operands are true, then the "or expression" also evaluates to true. Otherwise, the "or expression" evaluates to false.  |
+| ! | not | if the operand is false, then the "not" of the operand is true (and vice versa). |
+
 ## Functions
 * Functions are a way to encapsulate and re-use code
 * With functions, you can perform the same operations over and over using different data
 * JavaScript has many built-in functions
 * You can also create your own functions
 
-### Syntax
+### 1. Syntax
 ```js
 const nameOfFunction = (parameters) => {
     statement 1;
@@ -196,7 +269,7 @@ var document.querySelector(‘button’).onclick = function(num1, num2) {
 };
 ```
 
-### Terminology
+### 2. Terminology
 
 | Term | Definition |
 |--|--|
@@ -216,7 +289,7 @@ When JavaScript is used in HTML pages, JavaScript can "react" to particular “e
 * onkeydown
 * onload
 
-### Making events work for you
+### 1. Making events work for you
 Events are comprised of two parts:
 1. **Event Listeners:** refer to the particular interaction / thing to which you want to listen.
 
@@ -248,3 +321,25 @@ Therefore, to create an event-driven interaction, you need to tell your browser 
 | 2. What is the event of interest? | See the list of events above. |
 | 3. What functionality to you want to attach to the event? | For this, you will need to create your own event handler -- a function -- to respond to the event. Moreover, if you need your event handler to use data from the element that triggered the event, use the event object (see below). |
 
+### 2. The "Event" object
+TBD...
+
+```js
+// event handler:
+const changeColor = (ev) => {
+       console.log(ev);
+   	const sourceElement = ev.target;
+   	document.querySelector('body').style.background = sourceElement.innerHTML;
+};
+
+// event listener attach to all of the buttons:
+document.querySelector('#color1').onclick = changeColor;
+document.querySelector('#color2').onclick = changeColor;
+document.querySelector('#color3').onclick = changeColor;
+```
+
+## Conditional Statements (If / Else)
+TBD
+
+## Loops
+TBD
