@@ -3,10 +3,10 @@ layout: assignment-two-column
 title: Asynchronous JavaScript + REST 
 abbreviation: HW4
 type: homework
-due_date: 2020-05-19
+due_date: 2020-05-26
 points: 10
 ordering: 4
-draft: 1
+draft: 0
 ---
 
 
@@ -44,7 +44,7 @@ For this task, I have created the HTML and CSS for you. If you open **<a href=".
 
 
 ## Assignment Instructions
-In this assignment, you will use JavaScript to make the Spotify search/browse interface work. To do this, you will be editing files in the **<a href="../course-files/homework/hw04s/your_task/index.html" target="_blank">your_task</a>** folder. Please complete the four tasks listed below, following the guidelines listed:
+In this assignment, you will use JavaScript to make the Spotify search/browse interface work. To do this, you will be editing files in the **<a href="../course-files/homework/hw04/your_task/index.html" target="_blank">your_task</a>** folder. Please complete the four tasks listed below, following the guidelines listed:
 
 
 ### Step #1: Display Artist
@@ -54,7 +54,7 @@ Implement the `getArtist` function. This function -- and any (optional) helper f
   * <a target="_blank" href="https://www.apitutor.org/spotify/simple/v1/search?type=artist&q=BTS">https://www.apitutor.org/spotify/simple/v1/search?type=**artist**&q=BTS</a>
 2. Display the **first artist** that get returned (rather than displaying all of the artists, you will just display the first one).
 3. If no artists are returned for the search query, display a message that indicates that no artist has been returned.
-4. Render the artist card to look like the one shown in <a href="../course-files/assignments/hw05/sample/index.html" target="_blank">sample/index.html</a>, using a templated version of the code shown below. Note that the values for `id` `src` `href` and `h3's inner HTML` should be rendered dynamically using live Spotify data.
+4. Render the artist card to look like the one shown in <a href="../course-files/homework/hw04/sample/index.html" target="_blank">sample/index.html</a>, using a templated version of the code shown below. Note that the values for `id` `src` `href` and `h3's inner HTML` should be rendered dynamically using live Spotify data.
 
 ```html
 <section class="artist-card" id="3Nrfpe0tUJi4K4DXYWgMUX">
@@ -70,7 +70,7 @@ Implement the `getArtist` function. This function -- and any (optional) helper f
 </section>
 ```
 
-<img src="{{site.baseurl}}/assets/images/hw05/artist_card.png" />
+<img src="{{site.baseurl}}/assets/images/homework/hw04/artist_card.png" />
 
   
 ### Step #2: Display Tracks
@@ -80,7 +80,7 @@ Implement the `getTracks` function. This function -- and any (optional) helper f
 2. Display the **first five** tracks that gets returned (not all of them -- just the first five).
 3. If no tracks are returned for the search query, display a message like "No tracks found that match your search criteria."
 4. Ensure that your code still works if less than 5 tracks get returned.
-5. Render the tracks to look like the ones shown in **<a href="../course-files/assignments/hw05/sample/index.html" target="_blank">sample/index.html</a>**, using a templated version of the code shown below (including the hover effects). Note that the values for `data-preview-track` `src` `h3's inner HTML` and `p's inner HTML` should be rendered dynamically using live Spotify data.
+5. Render the tracks to look like the ones shown in **<a href="../course-files/homework/hw04/sample/index.html" target="_blank">sample/index.html</a>**, using a templated version of the code shown below (including the hover effects). Note that the values for `data-preview-track` `src` `h3's inner HTML` and `p's inner HTML` should be rendered dynamically using live Spotify data.
 
 ```html
 <section class="track-item preview" data-preview-track="https://p.scdn.co/mp3-preview/879c7106422b0b53852209da6a63210be7e09b01?cid=9697a3a271d24deea38f8b7fbfa0e13c">
@@ -95,7 +95,7 @@ Implement the `getTracks` function. This function -- and any (optional) helper f
 </section>
 ```
 
-<img src="{{site.baseurl}}/assets/images/hw05/tracks.png" />
+<img src="{{site.baseurl}}/assets/images/homework/hw04/tracks.png" />
 
 
 ### Step #3: Display Albums
@@ -104,7 +104,7 @@ Implement the `getAlbums` function. This function -- and any (optional) helper f
   * <a target="_blank" href="https://www.apitutor.org/spotify/simple/v1/search?type=album&q=BTS">https://www.apitutor.org/spotify/simple/v1/search?type=**album**&q=BTS</a>
 2. Display all of the albums that get returned.
 3. If no albums are returned for the search query, display a message like "No albums were returned."
-4. Render the album cards to look like the ones shown in <a href="../course-files/assignments/hw05/sample/index.html" target="_blank">sample/index.html</a>, using a templated version of the code shown below. Note that the values for `id` `src` `h3's inner HTML` and `href` should be rendered dynamically using live Spotify data.
+4. Render the album cards to look like the ones shown in <a href="../course-files/homework/hw04/sample/index.html" target="_blank">sample/index.html</a>, using a templated version of the code shown below. Note that the values for `id` `src` `h3's inner HTML` and `href` should be rendered dynamically using live Spotify data.
 
 ```html
 <section class="album-card" id="2lATw9ZAVp7ILQcOKPCPqp">
@@ -120,7 +120,7 @@ Implement the `getAlbums` function. This function -- and any (optional) helper f
 </section>
 ```
 
-<img src="{{site.baseurl}}/assets/images/hw05/albums.png" />
+<img src="{{site.baseurl}}/assets/images/homework/hw04/albums.png" />
 
 ### Step #4: Connect Tracks to the Audio Player
 Add a click event handler to each of the tracks. When a track is clicked, your code will do the following:
@@ -128,13 +128,16 @@ Add a click event handler to each of the tracks. When a track is clicked, your c
 2. Update the audioPlayer object with the track's song preview URL: `audioPlayer.setAudioFile(preview_url);`
 3. Play the song: `audioPlayer.play();`
 
+#### Hints
+In order to get the "click" events to work for each track, you're going to have to attach the click event handlers to each track after you've updated the DOM. 
+
 ## Extra Credit
 The following enhancements can be completed for extra credit. Note: You are only entitled to 6 points extra credit in this class (3 percentage points).
 
 {:.checkbox-list}
 * Add an event handler to the artist card so that when you click on it, the tracks in the #tracks section are replaced by the artist's top tracks **(1 point)**
 * Add an event handler to each album card so that when you click the album, the tracks in the #tracks section are replaced by the album's tracks **(1 point)**
-* Modify the track template so that if there is no audio preview available, you don't get the option to play the track. Note: to test, search for Billie Elish, who is not available on Spotify **(1 point)** <br><img style="height:120px;" src="{{site.baseurl}}/assets/images/hw05/no_preview_available.png">
+* Modify the track template so that if there is no audio preview available, you don't get the option to play the track. Note: to test, search for Billie Elish, who is not available on Spotify **(1 point)** <br><img style="height:120px;" src="{{site.baseurl}}/assets/images/homework/hw04/no_preview_available.png">
 * Figure out a way to hide the audio player unless the user has requested to listen to the track (by clicking on a track) **(1 point)**
 * Implement a way to play and pause a track by clicking on the track listing **(1 point)**
 * Integrate data from Twitter or YouTube, and render some stylized content below the albums **(1 point)**
