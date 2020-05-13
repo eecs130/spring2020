@@ -17,7 +17,8 @@ const photos = [
     'images/daisy1.jpg'
 ];
 
-// add first photo to the DOM:
+// Create a card for every image in the photos list using a for...of loop and
+// template variables
 let template = `
     <div class="card" style="background-image:url('images/poppies.jpg')"></div>
 `;

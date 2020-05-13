@@ -5,7 +5,6 @@ const carsURL = 'https://raw.githubusercontent.com/eecs130/spring2020/master/cou
 
 const loadCards = (photos) => {
     document.querySelector('.cards').innerHTML = '';
-
     for (photo of photos) {
         const template = `
             <div class="card" style="background-image:url('${photo}')"></div>`;
@@ -14,11 +13,11 @@ const loadCards = (photos) => {
     initCarousel();
 };
 
-// query the data:
-fetch(carsURL)
+// query the data from the server:
+fetch(bikesURL)
     .then((response) => {
         return response.json();
     })
-    .then(loadCards);
+    .then(loadCards); // invokes a function to process the data
     
 

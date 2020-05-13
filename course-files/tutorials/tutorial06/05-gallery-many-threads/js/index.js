@@ -1,5 +1,7 @@
-const remotePath = 'https://raw.githubusercontent.com/hci330/winter2020/master/course-files/assignments/studio04/06-gallery-ajax/data/';
-const localPath = '../data';
+const photosURL = 'https://raw.githubusercontent.com/eecs130/spring2020/master/course-files/tutorials/tutorial06/05-gallery-many-threads/data/flowers.json';    
+const bikesURL = 'https://raw.githubusercontent.com/eecs130/spring2020/master/course-files/tutorials/tutorial06/05-gallery-many-threads/data/bikes.json';    
+const carsURL = 'https://raw.githubusercontent.com/eecs130/spring2020/master/course-files/tutorials/tutorial06/05-gallery-many-threads/data/cars.json';    
+
     
 const loadCards = (photos) => {
     document.querySelector('.cards').innerHTML = '';
@@ -14,7 +16,7 @@ const loadCards = (photos) => {
 };
 
 const loadFlowers = () => {
-    fetch(remotePath + 'flowers.json')
+    fetch(photosURL)
         .then((response) => {
             return response.json();
         })
@@ -23,12 +25,12 @@ const loadFlowers = () => {
 
 const loadCars = () => {
     // your job:
-    console.log('fetch data from', remotePath + 'cars.json', 'and display it...');
+    console.log('fetch data from', carsURL, 'and display it...');
 };
 
 const loadBikes = () => {
     // your job:
-    console.log('fetch data from', remotePath + 'bikes.json', 'and display it...');
+    console.log('fetch data from', bikesURL, 'and display it...');
 };
 
 document.querySelector('#flowers-button').onclick = loadFlowers;
