@@ -2,13 +2,18 @@
 layout: module
 title: Lists, Dictionaries, and Templates
 type: lecture
-draft: 1
+draft: 0
 num: 12
 due_date: 2020-05-13
 slides:
-   - url: https://docs.google.com/presentation/d/1Ra5RGuX0e5PysR57rYVKRQ3up7LOTPyeihMpY5vCOao/edit?usp=sharing
+   - url: https://docs.google.com/presentation/d/1EVuiPopIu9qoMM_nGkbrSS1O0EMTw4FHJ1La_hh-S_Y/edit?usp=sharing
      title: Lists, Dictionaries, and Templates
 
 ---
 
-TBD
+<a class="nu-button" href="/spring2020/course-files/lectures/lecture12.zip">
+    download starter files 
+    <i class="fas fa-download"></i>
+</a>
+
+Today we are transitioning into creating data-driven templates, which will help us to create dynamic, interactive, web apps. We will begin by introducting two new data types -- lists and objects -- and then examining how we can use data with HTML, CSS, and JavaScript via templates.

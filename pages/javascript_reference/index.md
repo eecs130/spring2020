@@ -1,7 +1,7 @@
 ---
 layout: two-column
 title: JavaScript Cheatsheet
-nav_order: 20
+nav_order: 2
 has_children: true
 permalink: /javascript-reference/
 show_outline: false
