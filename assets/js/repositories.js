@@ -24,13 +24,13 @@ fetch('../assets/data/repos.json')
             if (student.gitpages_url) {
                 row += `
                     <td><a href="${student.gitpages_url}" target="_blank">GitHub Pages</a></td>
-                    <td><a href="${student.gitpages_url}/hw01" target="_blank">hw1</a></td>
+                    <td><a href="${student.gitpages_url}/${student.hw01 || "hw01"}" target="_blank">hw1</a></td>
                     <td>
-                        <a href="${student.gitpages_url}/hw02/02_flexbox/" target="_blank">hw2a</a> &bull;
-                        <a href="${student.gitpages_url}/hw02/03_spotify/" target="_blank">hw2b</a>
+                        <a href="${student.gitpages_url}/${student.hw02 || "hw02"}/02_flexbox/" target="_blank">hw2a</a> &bull;
+                        <a href="${student.gitpages_url}/${student.hw02 || "hw02"}/03_spotify/" target="_blank">hw2b</a>
                     </td>
-                    <td><a href="${student.gitpages_url}/hw03" target="_blank">hw3</a></td>
-                    <td><a href="${student.gitpages_url}/hw04" target="_blank">hw4</a></td>
+                    <td><a href="${student.gitpages_url}/${student.hw03 || "hw03"}" target="_blank">hw3</a></td>
+                    <td><a href="${student.gitpages_url}/${student.hw04 || "hw04"}" target="_blank">hw4</a></td>
                 `;
             } else {
                 row += `
