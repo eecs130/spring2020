@@ -9,6 +9,11 @@ slides:
    - url: https://docs.google.com/presentation/d/1EVuiPopIu9qoMM_nGkbrSS1O0EMTw4FHJ1La_hh-S_Y/edit?usp=sharing
      title: Lists, Dictionaries, and Templates
 
+videos:
+   - url: https://northwestern.zoom.us/rec/share/4sBIcuDgyGJLSYGQyHzlaKgOGZ7qeaa8gClPrKEOzE5cS_kwp07QbP1WVucg6sXF?startTime=1589403533000
+     title: Lists, Dictionaries, and Templates
+     live: 1
+
 ---
 
 <a class="nu-button" href="/spring2020/course-files/lectures/lecture12.zip">
