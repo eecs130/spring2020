@@ -60,6 +60,9 @@ layout: default
                             {% assign className = 'lab' %}
                             {% assign prefix = "Tutorial " | append: lecture.num %}
                         {% endif %} 
+                        {% if lecture.type == 'presentation' %}
+                            {% assign prefix = "Presentation" %}
+                        {% endif %} 
                         {% if lecture.draft == 1 and prefix %}
                             <span class="badge">
                                 {{ prefix }}
