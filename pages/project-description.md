@@ -130,7 +130,20 @@ In an effort to provide some structure as you work to complete your projects, I'
         </tr>
         <tr>
             <td>Week 10</td>
-            <td>Th, 6/5</td>
+            <td>Th & Fr, 6/4 - 6/5</td>
+            <td>Final Presentation</td>
+            <td>4</td>
+            <td>
+                <ul>
+                    <li>Presents finished product (live demo works)</li>
+                    <li>Describes technologies used and principles followed</li>
+                    <li>Describes next steps / what they would do next if there were more time</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Week 10</td>
+            <td>Su, 6/7</td>
             <td>Final Deliverable</td>
             <td>24</td>
             <td>
@@ -139,19 +152,6 @@ In an effort to provide some structure as you work to complete your projects, I'
                     <li>Polishes the three milestones</li>
                     <li>Implements the design principles</li>
                     <li>Writes a (short) thoughtful reflection of the intent of the project and any lessons learned.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Week 10</td>
-            <td>Th, 6/5</td>
-            <td>Final Presentation</td>
-            <td>4</td>
-            <td>
-                <ul>
-                    <li>Presents finished product (live demo works)</li>
-                    <li>Describes technologies used and principles followed</li>
-                    <li>Describes next steps / what they would do next if there were more time</li>
                 </ul>
             </td>
         </tr>
