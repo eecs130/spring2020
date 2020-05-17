@@ -22,7 +22,8 @@ layout: default
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
         {% assign tutorials = site.lectures | sort: 'due_date' | where: "type", "tutorial" %}
-        {% assign assignments = sortedAssignments | concat: tutorials  | sort: 'due_date' %}
+        {% assign presentations = site.lectures | sort: 'due_date' | where: "type", "presentation" %}
+        {% assign assignments = sortedAssignments | concat: tutorials | concat: presentations | sort: 'due_date' %}
         {% for assignment in assignments %}
             {% assign dueDate = assignment.due_date | date: '%s' %}
             {% assign diffSeconds = dueDate | minus: dateStart %}
@@ -32,7 +33,7 @@ layout: default
             {% if assignment.type == 'homework' %}
                 {% assign className = 'hw' %}
             {% endif %}
-            {% if assignment.type == 'tutorial' %}
+            {% if assignment.type == 'tutorial' or assignment.type == 'presentation' %}
                 {% assign className = 'lab' %}
             {% endif %}
             {% if assignment.type == 'extra credit' %}

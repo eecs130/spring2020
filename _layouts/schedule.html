@@ -61,6 +61,7 @@ layout: default
                             {% assign prefix = "Tutorial " | append: lecture.num %}
                         {% endif %} 
                         {% if lecture.type == 'presentation' %}
+                            {% assign className = 'pj' %}
                             {% assign prefix = "Presentation" %}
                         {% endif %} 
                         {% if lecture.draft == 1 and prefix %}

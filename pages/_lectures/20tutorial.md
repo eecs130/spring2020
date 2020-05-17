@@ -2,6 +2,7 @@
 layout: assignment-two-column
 title: Final Project Presentations
 type: presentation
+abbreviation: Presentation
 draft: 0
 num: 9
 points: 4
