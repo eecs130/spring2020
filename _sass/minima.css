@@ -852,7 +852,7 @@ blockquote.quote {
 
 blockquote.quote p:before {
   content: '“';
-  color: #F6F6F6;
+  color: #444;
   font-size: 2em;
   line-height: 0.1em;
   margin-right: 0.1em;
