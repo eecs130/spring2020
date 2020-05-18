@@ -17,7 +17,7 @@ videos:
 ---
 
 <a class="nu-button" href="/spring2020/course-files/lectures/lecture12.zip">
-    download starter files 
+    download lecture files 
     <i class="fas fa-download"></i>
 </a>
 

@@ -24,7 +24,7 @@ videos:
 ---
 
 <a class="nu-button" href="/spring2020/course-files/lectures/lecture09.zip">
-    download starter files 
+    download lecture files 
     <i class="fas fa-download"></i>
 </a>
 <a href="http://turing.library.northwestern.edu/login?url=https://www.safaribooksonline.com/library/view/temporary-access/" target="_blank" class="button">Safari Books Login <i class="fas fa-link"></i></a>
