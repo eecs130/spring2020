@@ -11,7 +11,10 @@ slides:
      url: https://docs.google.com/presentation/d/1cC72rAuVbVMbMn4J2ykT3Ayt7HPXS1pjpmGmZq0OjqM/edit?usp=sharing
 
 include_page: "includes/fetch.md"
-
+videos:
+   - url: https://northwestern.zoom.us/rec/share/2spwN4Gh219OUtLX0EbjVIcAE9z1X6a81CBK-ftemBlusKTAU9W0_4WBd1vxRC0p?startTime=1589835559000
+     title: Working with Data
+     live: 1
 ---
 
 <a class="nu-button" href="/spring2020/course-files/lectures/lecture13.zip">
