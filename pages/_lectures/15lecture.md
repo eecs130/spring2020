@@ -13,4 +13,10 @@ slides:
 include_page: "includes/fetch.md"
 
 ---
+
+<a class="nu-button" href="/spring2020/course-files/lectures/lecture13.zip">
+    download starter files 
+    <i class="fas fa-download"></i>
+</a>
+
 Today, we are going to be learning about JavaScript’s fetch API, and how to use it to retrieve data from various content providers (i.e. servers). 
