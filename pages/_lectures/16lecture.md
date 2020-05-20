@@ -1,5 +1,5 @@
 ---
-layout: lecture
+layout: module
 title: Making your app interactive with third-party data
 type: lecture
 draft: 0
