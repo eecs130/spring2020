@@ -8,6 +8,10 @@ due_date: 2020-05-20
 slides:
    - title: Making your app interactive with third-party data
      url: https://docs.google.com/presentation/d/1tJfkA8Ans9AeokARRGbh-ktENYf_TeXlhbqsRggkUv8/edit?usp=sharing
+videos:
+   - url: https://northwestern.zoom.us/rec/share/tN1MKJff81tIW4Xuq1vZcJ4oHKvHaaa8hCcY8_YKyxku3yuCvqfFX2CY8slnICrt?startTime=1590008321000
+     title: Working with web services
+     live: 1
 ---
 
 <a class="nu-button" href="/spring2020/course-files/lectures/lecture14.zip">
