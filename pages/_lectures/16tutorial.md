@@ -10,4 +10,5 @@ description:
     - Querying and leveraging third-party API content
 ---
 
-Intro to the course!
+
+https://docs.google.com/document/d/1QTsIkQEgE0Bi3y7UCA52dwsN4QKZUT1-aigJPHRJuSs/edit 

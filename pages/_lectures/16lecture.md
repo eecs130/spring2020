@@ -1,12 +1,12 @@
 ---
 layout: lecture
-title: Data + JavaScript libraries
+title: Making your app interactive with third-party data
 type: lecture
-draft: 1
+draft: 0
 num: 14
 due_date: 2020-05-20
 slides:
-   - title: Data + JavaScript libraries
+   - title: Making your app interactive with third-party data
      url: https://docs.google.com/presentation/d/1tJfkA8Ans9AeokARRGbh-ktENYf_TeXlhbqsRggkUv8/edit?usp=sharing
 ---
 
@@ -15,4 +15,4 @@ slides:
     <i class="fas fa-download"></i>
 </a>
 
-Today, we are going to practice using data that you get from a server to create various UI controls and widgets. As you have seen, we can create our own "widgets" from scratch. You did this with the photo gallery you programmed in HW3. However you can also make use of various widgets that have been developed by others. We will practice both techniques.
+Today, we will continue working with the JavaScript’s fetch API -- using it to query data from various content providers (i.e. servers), and create different interface elements. Then we will take a look at homework 4. I've also provided a few sample files to show you how you might make an interactive map or a chart using various third-party libraries.
