@@ -322,13 +322,25 @@ Therefore, to create an event-driven interaction, you need to tell your browser 
 | 3. What functionality to you want to attach to the event? | For this, you will need to create your own event handler -- a function -- to respond to the event. Moreover, if you need your event handler to use data from the element that triggered the event, use the event object (see below). |
 
 ### 2. The "Event" object
-TBD...
+When you attach an event handler (i.e function) to an event, an event object is passed to the event handler when it is triggered. This event object offers some useful information about the event that has just been fired, including:
+1. **target:** The element that triggered the event (target)
+2. **currentTarget:** The element whose event listeners triggered the event
+
+You can learn more about the distinction between the target and the currentTarget <a href="https://medium.com/@florenceliang/javascript-event-delegation-and-event-target-vs-event-currenttarget-c9680c3a46d1" target="_blank">here</a>.
+
+Note in the example below, `ev.currentTarget` is used to detect which button was clicked, in order to change the document background to the appropriate color:
+
+```html
+<button id="color1" type="button">teal</button>
+<button id="color2" type="button">hotpink</button>
+<button id="color3" type="button">yellow</button>
+```
 
 ```js
 // event handler:
 const changeColor = (ev) => {
-       console.log(ev);
-   	const sourceElement = ev.target;
+    console.log(ev);
+   	const sourceElement = ev.currentTarget;
    	document.querySelector('body').style.background = sourceElement.innerHTML;
 };
 
@@ -338,8 +350,9 @@ document.querySelector('#color2').onclick = changeColor;
 document.querySelector('#color3').onclick = changeColor;
 ```
 
-## Conditional Statements (If / Else)
+
+<!-- ## Conditional Statements (If / Else)
 TBD
 
 ## Loops
-TBD
+TBD -->
