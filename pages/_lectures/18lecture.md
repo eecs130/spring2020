@@ -29,6 +29,9 @@ How would you like to use class time on Th/Fr and next week?
 1. Parallax and animations
 2. Making your own API with Google's Firebase
 3. How to set up your own domain name
+4. CSS Grid
+5. Faking JSON data
+6. What else???
 
 
 ### Individual Group Meeting Slots [Office Hours]
