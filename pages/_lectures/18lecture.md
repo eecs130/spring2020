@@ -18,20 +18,16 @@ How would you like to use class time on Th/Fr and next week?
 | Date | Session | Topic |
 |--|--|--|
 | Th, 5/28: 4-5PM | Tutorial with Anna | Setting up your own domain name |
-| Fr, 5/29: 3-4PM | Tutorial with Sarah | ??? |
-| Fr, 5/29: 4-5PM | Tutorial with Sarah | ??? |
+| Fr, 5/29: 3-4PM | Tutorial with Sarah | Parallax & Animations |
+| Fr, 5/29: 4-5PM | Tutorial with Sarah | Faking JSON Data w/Fetch |
 | TBD | Olivier | Setting Up a Heroku Server + Database |
-| Mo, 6/1 | Class 4-5PM  | ??? | 
-| We, 6/3 | Class 4-5PM  | ??? | 
+| Mo, 6/1 | Class 4-5PM  | Office Hours | 
+| We, 6/3 | Class 4-5PM  | Office Hours | 
 | Th, Fr (6/4-5) | Tutorial | Final Presentations |
 
-### Going Over Special Topics 
-1. Parallax and animations
-2. Making your own API with Google's Firebase
-3. How to set up your own domain name
-4. CSS Grid
-5. Faking JSON data
-6. What else???
+### Voting Results
+How should we use our last 10 days?
+<img src="/spring2020/assets/images/lectures/poll.png" />
 
 
 ### Individual Group Meeting Slots [Office Hours]
