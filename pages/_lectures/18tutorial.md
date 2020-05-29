@@ -55,6 +55,8 @@ In order to access the LinkedIn content, please sign in with your NU account.
 
 
 ### III. Custom Data + Templates (Fr, 4-5PM)
+<a href="https://northwestern.zoom.us/rec/share/x-BIFrHa1FxIbqvj8V7PZqQxXaj6T6a81igf_PsFy0iIDW9SKREzT3i-oDgeRZsz?startTime=1590786049000" target="_blank">Video from today</a>
+
 In order to "fake" a database interaction, you have to create one or more JSON files that your interact with using fetch. However, there is one security trick: when you're testing on you local computer, you have to run a local server so that you don't get a security error. To do this:
 
 1. Open your Terminal or commmand prompt
