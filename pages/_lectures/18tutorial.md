@@ -43,17 +43,14 @@ For the Animations tutorial, I was thinking of just showing you some options and
 * <a href="https://github.com/geosigno/simpleParallax.js" target="_blank">https://github.com/geosigno/simpleParallax.js</a>
 
 #### Other Animation Libraries and Tutorials
+* <a href="https://github.com/juliangarnier/anime#getting-started" target="_blank">AnimeJS</a>
+* Some interesting <a href="https://www.linkedin.com/learning/css-shorts/welcome?u=75814418 target="_blank">CSS Shorts</a> on LinkedIn learning, which deconstruct various design techniques / florishes.
+
 In order to access the LinkedIn content, please sign in with your NU account.
 
 <a class="nu-button" href="https://www.linkedin.com/checkpoint/enterprise/login/75814418?application=learning" target="blank">
     Sign into LinkedIn Learning <i class="fas fa-external-link-alt" aria-hidden="true"></i>
 </a>
-
-Then check out <a href="https://www.linkedin.com/learning/css-shorts/welcome?u=75814418 target="_blank">CSS Shorts</a>, which is a really interesting set of short videos that deconstruct various design techniques / florishes.
-    
-
-
-
 
 
 
