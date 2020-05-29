@@ -44,7 +44,7 @@ For the Animations tutorial, I was thinking of just showing you some options and
 
 #### Other Animation Libraries and Tutorials
 * <a href="https://github.com/juliangarnier/anime#getting-started" target="_blank">AnimeJS</a>
-* Some interesting <a href="https://www.linkedin.com/learning/css-shorts/welcome?u=75814418 target="_blank">CSS Shorts</a> on LinkedIn learning, which deconstruct various design techniques / florishes.
+* Some interesting <a href="https://www.linkedin.com/learning/css-shorts/welcome?u=75814418" target="_blank">CSS Shorts</a> on LinkedIn learning, which deconstruct various design techniques / florishes.
 
 In order to access the LinkedIn content, please sign in with your NU account.
 
